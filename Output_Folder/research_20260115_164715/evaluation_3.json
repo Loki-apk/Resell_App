@@ -1,0 +1,74 @@
+{
+  "overall_sufficiency": "not sufficient",
+  "match_percentage": 60.0,
+  "count_positive": 6,
+  "count_negative": 4,
+  "query_improvement_feedback": "Remove 'nicht AX' - 7590 is AX model, exclusion filters correct listings",
+  "individual_results_evaluation": [
+    {
+      "id": "6822",
+      "is_match": true,
+      "reasoning": "AVM FRITZ!Box 7590 AX v2 matches brand, model, and includes OVP confirming good condition"
+    },
+    {
+      "id": "16728",
+      "is_match": true,
+      "reasoning": "AVM FRITZ!Box 7590 AX neu matches brand, model, and new condition aligns with target"
+    },
+    {
+      "id": "3353",
+      "is_match": true,
+      "reasoning": "Explicit 7590 model, AVM brand, 'sehr guter Zustand' and OVP match target specifications"
+    },
+    {
+      "id": "19654",
+      "is_match": true,
+      "reasoning": "7590 AX model, new condition, and OVP align with target product details"
+    },
+    {
+      "id": "1003",
+      "is_match": true,
+      "reasoning": "7590 AX model and AVM brand match despite minimal description"
+    },
+    {
+      "id": "1022",
+      "is_match": false,
+      "reasoning": "Wanted ad ('Suche') not a product listing for sale"
+    },
+    {
+      "id": "305",
+      "is_match": false,
+      "reasoning": "Yellowed casing contradicts 'white with red accents' and 'no wear' condition"
+    },
+    {
+      "id": "3352",
+      "is_match": false,
+      "reasoning": "Suspiciously low price (24€) and lack of model details indicate potential scam/wrong product"
+    },
+    {
+      "id": "2457",
+      "is_match": true,
+      "reasoning": "7590 AX model, OVP, and 'gut erhalten' condition match target requirements"
+    },
+    {
+      "id": "1587",
+      "is_match": false,
+      "reasoning": "Black color variant contradicts target's 'white with red accents' specification"
+    }
+  ],
+  "total_listings": 10,
+  "price_statistics": {
+    "positive_match_count": 6,
+    "price_statistics": {
+      "count": 0,
+      "min": null,
+      "max": null,
+      "median": null,
+      "mean": null,
+      "range": null,
+      "valid_prices": [],
+      "error": "No valid prices found"
+    },
+    "items_with_valid_prices": 0
+  }
+}

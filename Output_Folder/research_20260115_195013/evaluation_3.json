@@ -1,0 +1,88 @@
+{
+  "iteration": 3,
+  "query": "FRITZ!Box 7590 AX v2 mit LAN-Kabel und Netzteil",
+  "evaluation": {
+    "individual_results_evaluation": [
+      {
+        "id": "17008",
+        "price": "180 €",
+        "is_match": false,
+        "reasoning": "Missing Ethernet cable in description; only mentions power adapter"
+      },
+      {
+        "id": "3461",
+        "price": "100 €",
+        "is_match": false,
+        "reasoning": "No mention of Ethernet cable; only specifies power adapter"
+      },
+      {
+        "id": "6838",
+        "price": "88 €",
+        "is_match": false,
+        "reasoning": "Describes LAN ports but does not confirm included Ethernet cable"
+      },
+      {
+        "id": "6204",
+        "price": "160 € VB",
+        "is_match": true,
+        "reasoning": "Explicitly includes both power adapter and Ethernet cable; correct model and condition"
+      },
+      {
+        "id": "7557",
+        "price": "180 € VB",
+        "is_match": false,
+        "reasoning": "Mentions power cable but omits Ethernet cable inclusion"
+      },
+      {
+        "id": "951",
+        "price": "175 € VB",
+        "is_match": false,
+        "reasoning": "No accessory details provided; cannot confirm cable inclusion"
+      },
+      {
+        "id": "4910",
+        "price": "60 € VB",
+        "is_match": true,
+        "reasoning": "Sealed original packaging confirms inclusion of all accessories including both cables"
+      },
+      {
+        "id": "341",
+        "price": "125 €",
+        "is_match": true,
+        "reasoning": "Original packaging with 'allem Zubehör' confirms both power adapter and Ethernet cable"
+      },
+      {
+        "id": "1990",
+        "price": "150 € VB",
+        "is_match": false,
+        "reasoning": "No explicit mention of included Ethernet cable despite technical specs"
+      },
+      {
+        "id": "17346",
+        "price": "185 €",
+        "is_match": false,
+        "reasoning": "No accessory details provided; description lacks cable confirmation"
+      }
+    ],
+    "query_improvement_feedback": "Add 'inklusive LAN-Kabel' to query to enforce explicit cable inclusion in results",
+    "count_positive": 3,
+    "count_negative": 7,
+    "match_percentage": 30.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient"
+  },
+  "match_percentage": 30.0,
+  "price_statistics": {
+    "positive_match_count": 3,
+    "price_statistics": {
+      "count": 3,
+      "median": 125.0,
+      "range": "60-160",
+      "valid_prices": [
+        60.0,
+        125.0,
+        160.0
+      ]
+    }
+  }
+}

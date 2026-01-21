@@ -1,0 +1,88 @@
+{
+  "iteration": 2,
+  "query": "AVM FRITZ!Box 7590 AX v2 mit LAN-Kabel",
+  "evaluation": {
+    "individual_results_evaluation": [
+      {
+        "id": "17008",
+        "price": "180 €",
+        "is_match": false,
+        "reasoning": "Missing explicit mention of Ethernet cable (LAN-Kabel) in description; only lists power adapter (Netzteil)"
+      },
+      {
+        "id": "3461",
+        "price": "100 €",
+        "is_match": false,
+        "reasoning": "Description confirms power adapter but omits Ethernet cable requirement; model uses 'V2' capitalization variant"
+      },
+      {
+        "id": "6838",
+        "price": "88 €",
+        "is_match": false,
+        "reasoning": "Description mentions power adapter but no reference to included Ethernet cable"
+      },
+      {
+        "id": "6204",
+        "price": "160 € VB",
+        "is_match": true,
+        "reasoning": "Explicitly lists both power adapter (Netzkabel) and Ethernet cable (LAN-Kabel); matches model '7590 AX V2', condition 'sehr guter Zustand' aligns with 'Good/Used'"
+      },
+      {
+        "id": "7557",
+        "price": "180 € VB",
+        "is_match": false,
+        "reasoning": "Only power adapter (Stromkabel) mentioned; no Ethernet cable reference despite query requirement"
+      },
+      {
+        "id": "951",
+        "price": "175 € VB",
+        "is_match": false,
+        "reasoning": "No accessory details provided; fails to confirm required power adapter and Ethernet cable inclusion"
+      },
+      {
+        "id": "4910",
+        "price": "60 € VB",
+        "is_match": false,
+        "reasoning": "New condition (OVP) contradicts 'Good/Used' requirement; no explicit accessory confirmation despite sealed packaging"
+      },
+      {
+        "id": "341",
+        "price": "125 €",
+        "is_match": false,
+        "reasoning": "New condition (OVP) mismatch; lacks explicit Ethernet cable verification despite 'allem Zubehör' claim"
+      },
+      {
+        "id": "1990",
+        "price": "150 € VB",
+        "is_match": false,
+        "reasoning": "No accessory details in description; fails to confirm required Ethernet cable inclusion"
+      },
+      {
+        "id": "17346",
+        "price": "185 €",
+        "is_match": false,
+        "reasoning": "Insufficient detail; no confirmation of included accessories or condition alignment"
+      }
+    ],
+    "query_improvement_feedback": "Add 'mit LAN-Kabel und Netzteil' to enforce both required accessories in query terms",
+    "count_positive": 1,
+    "count_negative": 9,
+    "match_percentage": 10.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient"
+  },
+  "match_percentage": 10.0,
+  "price_statistics": {
+    "positive_match_count": 3,
+    "price_statistics": {
+      "count": 3,
+      "median": 125.0,
+      "range": "60-160",
+      "valid_prices": [
+        60.0,
+        125.0,
+        160.0
+      ]
+    }
+  }
+}

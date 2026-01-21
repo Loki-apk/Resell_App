@@ -1,0 +1,87 @@
+{
+  "iteration": 2,
+  "query": "FRITZ!Box 7590 neu OVP -AX",
+  "evaluation": {
+    "query_used": "FRITZ!Box 7590 neu OVP -AX",
+    "individual_results_evaluation": [
+      {
+        "id": "2789",
+        "price": "75 € VB",
+        "is_match": false,
+        "reasoning": "Used condition (gebrauchte), no OVP mentioned, lacks new-in-box verification"
+      },
+      {
+        "id": "2046",
+        "price": "170 € VB",
+        "is_match": true,
+        "reasoning": "Exact model 7590, explicitly states 'unbenutzt' (unused), white with red accents, matches new-in-box condition"
+      },
+      {
+        "id": "20340",
+        "price": "50 € VB",
+        "is_match": false,
+        "reasoning": "Used (5 Jahre alt), explicitly marked 'defekt' (defective), violates new condition"
+      },
+      {
+        "id": "6204",
+        "price": "160 € VB",
+        "is_match": false,
+        "reasoning": "Model variant 7590 AX V2 (excluded by -AX query), no OVP, used condition"
+      },
+      {
+        "id": "2434",
+        "price": "80 €",
+        "is_match": false,
+        "reasoning": "Repaired unit (Serienfehler beseitigt), used condition with modifications"
+      },
+      {
+        "id": "6838",
+        "price": "88 €",
+        "is_match": false,
+        "reasoning": "Model variant 7590 AX v2 (excluded by -AX query), no OVP mentioned"
+      },
+      {
+        "id": "3534",
+        "price": "30 € VB",
+        "is_match": false,
+        "reasoning": "No condition specified, suspiciously low price suggests used item, lacks OVP verification"
+      },
+      {
+        "id": "1009",
+        "price": "5 €",
+        "is_match": false,
+        "reasoning": "Accessory (Standfüße) not the router itself, completely different product type"
+      },
+      {
+        "id": "1580",
+        "price": "60 € VB",
+        "is_match": false,
+        "reasoning": "Partial functionality (only 5GHz works), used and defective condition"
+      },
+      {
+        "id": "296",
+        "price": "165 € VB",
+        "is_match": false,
+        "reasoning": "Model variant 7590 AX (excluded by -AX query), no OVP confirmation"
+      }
+    ],
+    "query_improvement_feedback": "Add 'non-AX' and 'OVP' to exclude AX variants and enforce packaging verification",
+    "count_positive": 1,
+    "count_negative": 9,
+    "match_percentage": 10.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient"
+  },
+  "match_percentage": 10.0,
+  "price_statistics": {
+    "positive_match_count": 1,
+    "price_statistics": {
+      "count": 1,
+      "median": 170.0,
+      "range": "170-170",
+      "valid_prices": [
+        170.0
+      ]
+    }
+  }
+}

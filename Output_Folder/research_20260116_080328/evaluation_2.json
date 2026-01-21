@@ -1,0 +1,18 @@
+{
+  "iteration": 2,
+  "query": "FRITZ!Box 7590 AX",
+  "evaluation": {
+    "individual_results_evaluation": [],
+    "query_improvement_feedback": "Add 'v2' to query to match exact model version specified in image analysis"
+  },
+  "match_percentage": 0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "median": 0,
+      "range": "N/A",
+      "valid_prices": []
+    }
+  }
+}

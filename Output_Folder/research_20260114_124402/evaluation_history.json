@@ -1,0 +1,75 @@
+[
+  {
+    "iteration": 1,
+    "search_query": "Fritz!Box",
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 0.0,
+      "count_positive": 0,
+      "count_negative": 0,
+      "query_improvement_feedback": "Remove special characters from query: use 'Fritz Box' instead of 'Fritz!Box'",
+      "individual_results_evaluation": []
+    }
+  },
+  {
+    "iteration": 2,
+    "search_query": "AVM Fritz Box",
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 50.0,
+      "count_positive": 1,
+      "count_negative": 1,
+      "query_improvement_feedback": "Add 'neu' to target new items with included power adapter",
+      "individual_results_evaluation": [
+        {
+          "id": "7749",
+          "is_match": true,
+          "reasoning": "Brand AVM matches, FRITZ!Box 7690 model acceptable (model unspecified in image), 'Brandneu' implies included power adapter/cable and white/red color standard for AVM routers"
+        },
+        {
+          "id": "8461",
+          "is_match": false,
+          "reasoning": "Missing explicit mention of power adapter/cable in description despite being used item; color not confirmed though model 3490 typically matches"
+        }
+      ]
+    }
+  },
+  {
+    "iteration": 3,
+    "search_query": "FRITZ!Box neu",
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 80.0,
+      "count_positive": 4,
+      "count_negative": 1,
+      "query_improvement_feedback": "Add 'OVP' to query to capture more new listings with original packaging",
+      "individual_results_evaluation": [
+        {
+          "id": "784",
+          "is_match": true,
+          "reasoning": "Brand AVM matches, model 7590 AX is valid FRITZ!Box variant, condition 'NEU/OVP' confirms new state, white color aligns with target, includes accessories per description"
+        },
+        {
+          "id": "9466",
+          "is_match": true,
+          "reasoning": "Brand implied by FRITZ!BOX, model 4060 is valid variant, condition 'Neu unbenutzt in Originalverpackung' matches new requirement and packaging"
+        },
+        {
+          "id": "645",
+          "is_match": true,
+          "reasoning": "Product type correct as 'Fritz Box', condition 'neu im original Karton' confirms new state with packaging, standard white/red color assumed"
+        },
+        {
+          "id": "7749",
+          "is_match": true,
+          "reasoning": "Model 6660 Cable is valid FRITZ!Box variant, condition 'Neu original verpackt' matches new requirement and packaging"
+        },
+        {
+          "id": "9197",
+          "is_match": false,
+          "reasoning": "Condition 'wie neu' indicates used item despite OVP, contradicts target's 'new' requirement from search query 'FRITZ!Box neu'"
+        }
+      ]
+    }
+  }
+]

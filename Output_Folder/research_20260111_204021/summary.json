@@ -1,0 +1,8 @@
+{
+  "status": "insufficient",
+  "iterations_used": 2,
+  "final_query": null,
+  "match_percentage": 66.67,
+  "positive_matches": 4,
+  "output_directory": "Output_Folder\\research_20260111_204021"
+}

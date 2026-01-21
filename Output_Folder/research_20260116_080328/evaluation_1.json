@@ -1,0 +1,18 @@
+{
+  "iteration": 1,
+  "query": "FRITZ!Box 7590 AX v2",
+  "evaluation": {
+    "individual_results_evaluation": [],
+    "query_improvement_feedback": "No results found. Query too specific; remove 'v2' to capture broader model variants."
+  },
+  "match_percentage": 0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "median": 0,
+      "range": "N/A",
+      "valid_prices": []
+    }
+  }
+}

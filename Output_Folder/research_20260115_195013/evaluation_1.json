@@ -1,0 +1,88 @@
+{
+  "iteration": 1,
+  "query": "Fritzbox 7590 AX v2",
+  "evaluation": {
+    "individual_results_evaluation": [
+      {
+        "id": "17008",
+        "price": "180 €",
+        "is_match": false,
+        "reasoning": "Title specifies correct model (7590 AX v2) and brand (AVM), but description only mentions power adapter ('Netzteil') without Ethernet cable. Image analysis requires both accessories to be included."
+      },
+      {
+        "id": "3461",
+        "price": "100 €",
+        "is_match": false,
+        "reasoning": "Correct model (7590 AX V2) in title, but description only states 'Inkl. Netzteil' (power adapter). Missing explicit mention of Ethernet cable required by image analysis."
+      },
+      {
+        "id": "6838",
+        "price": "88 €",
+        "is_match": false,
+        "reasoning": "Title matches model (7590 AX v2), but description only confirms power adapter ('Netzteil dabei'). No reference to Ethernet cable inclusion per image analysis requirements."
+      },
+      {
+        "id": "6204",
+        "price": "160 € VB",
+        "is_match": true,
+        "reasoning": "Explicitly lists both required accessories: 'Netzkabel' (power adapter) and 'LAN-Kabel' (Ethernet cable). Title and description confirm exact model (7590 AX V2) and AVM brand."
+      },
+      {
+        "id": "7557",
+        "price": "180 € VB",
+        "is_match": false,
+        "reasoning": "Description refers to '7590 AX' (missing 'v2' specification) and only mentions power adapter ('Stromkabel'). Model variant mismatch and incomplete accessories per image analysis."
+      },
+      {
+        "id": "951",
+        "price": "175 € VB",
+        "is_match": false,
+        "reasoning": "Title specifies correct model but description lacks any accessory details. Image analysis requires explicit confirmation of power adapter and Ethernet cable inclusion."
+      },
+      {
+        "id": "4910",
+        "price": "60 € VB",
+        "is_match": true,
+        "reasoning": "'Allem Zubehör' (all accessories) and 'Original verpackt' confirm inclusion of both power adapter and Ethernet cable. Title specifies exact model (7590 AX v2) and AVM brand."
+      },
+      {
+        "id": "341",
+        "price": "125 €",
+        "is_match": true,
+        "reasoning": "'Allem Zubehör' (all accessories) in description confirms required accessories. Title specifies correct model (7590AX V2) matching image analysis specifications."
+      },
+      {
+        "id": "1990",
+        "price": "150 € VB",
+        "is_match": false,
+        "reasoning": "Title matches model but description lacks accessory details. Image analysis requires explicit mention of both power adapter and Ethernet cable."
+      },
+      {
+        "id": "17346",
+        "price": "185 €",
+        "is_match": false,
+        "reasoning": "Title specifies correct model but description provides no accessory information. Fails to confirm required Ethernet cable inclusion per image analysis."
+      }
+    ],
+    "query_improvement_feedback": "Add 'mit LAN-Kabel' to query to filter listings explicitly including Ethernet cable, addressing 70% of false negatives from missing accessory details.",
+    "count_positive": 3,
+    "count_negative": 7,
+    "match_percentage": 30.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient"
+  },
+  "match_percentage": 30.0,
+  "price_statistics": {
+    "positive_match_count": 3,
+    "price_statistics": {
+      "count": 3,
+      "median": 125.0,
+      "range": "60-160",
+      "valid_prices": [
+        60.0,
+        125.0,
+        160.0
+      ]
+    }
+  }
+}

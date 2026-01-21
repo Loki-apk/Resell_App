@@ -1,0 +1,16 @@
+{
+  "status": "insufficient_matches",
+  "iterations_used": 3,
+  "final_query": "FRITZ!Box neu",
+  "match_percentage": 80.0,
+  "positive_matches": 4,
+  "price_statistics": {
+    "price_median": 0,
+    "price_min": 0,
+    "price_max": 0,
+    "currency": "EUR",
+    "sample_size": 0
+  },
+  "output_directory": "Output_Folder\\research_20260114_124402",
+  "timestamp": "20260114_124402"
+}

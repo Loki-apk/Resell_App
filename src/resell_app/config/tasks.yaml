@@ -1,0 +1,157 @@
+image_analysis_task:
+  description: >
+    Analyze the product images from {image_urls} using the Qwen Vision Tool to extract structured product information.
+    
+    Instructions:
+    1. Use the Qwen Vision Tool to analyze all provided images
+    2. Extract the following information:
+       - Item Name: The product type
+       - Brand: The manufacturer or brand name
+       - Model: Specific model number or name
+       - Color: Dominant color(s) of the product
+       - Condition: Apparent condition based on visual inspection
+       - Key Features: Distinctive visual characteristics, buttons, ports, markings
+    3. Be specific and accurate - do not guess or assume information not visible in the images
+    4. If the tool returns an error or cannot analyze the image, return an error object
+    5. Return ONLY a valid JSON object with no additional text or markdown formatting
+    
+  expected_output: >
+    A valid JSON object with the following structure:
+    {
+      "item_name": "string",
+      "brand": "string",
+      "model": "string",
+      "color": "string",
+      "condition": "string",
+      "key_features": "string",
+      "description": "string"
+    }
+    
+    If analysis fails, return:
+    {
+      "error": "string"
+    }
+
+generate_query_task:
+  description: >
+    Generate an optimized German search query for Kleinanzeigen based on the image analysis results and iteration feedback.
+    
+    CONTEXT:
+    - Current Iteration: {iteration}
+    - Image Analysis: {image_analysis}
+    - Previous Feedback: {feedback}
+    
+    CRITICAL RULES:
+    1. You MUST base your query ONLY on the image analysis provided above
+    2. DO NOT hallucinate or add information not present in the image analysis
+    3. The query MUST be in German (Kleinanzeigen is a German platform)
+    4. Return ONLY valid JSON - no markdown, no explanations, no additional text
+    
+    QUERY STRATEGY BY ITERATION:
+    
+    Iteration 1 (Initial Query):
+    - Start with Brand + Model from the image analysis
+    - Keep it concise: 2-4 words maximum
+    - Use the most distinctive identifiers from the image analysis
+    
+    Iteration 2+ (Refinement based on feedback):
+    - If feedback says "too broad" or "too many unrelated items":
+      * Add specific details: model number, generation, color from image analysis
+    
+    - If feedback says "too narrow" or "no results":
+      * Remove specific details: drop generation, color, or condition
+      * Or use broader category from the product type
+    
+    - If feedback says "wrong focus" or "wrong product type":
+      * Pivot to different attributes from image analysis
+      * Try alternative German terms for the product category
+    
+    VALIDATION:
+    - Double-check that your query matches the brand/model from image_analysis
+    - Ensure the query is natural German that sellers would use
+    - Verify you're outputting ONLY valid JSON
+   
+  expected_output: >
+    A valid JSON object with this exact structure:
+    {
+      "search_query": "string"
+    }
+
+evaluate_list_task:
+  description: >
+    Evaluate the scraped Kleinanzeigen listings to determine how well they match the target product from the image analysis using the metrics_tools tool.
+    
+    INPUT DATA PROVIDED:
+    1. Image Analysis ({image_analysis}): The target product details extracted from images
+    2. Search Query ({search_query}): The query used to find these listings
+    3. Scraped Data: JSON array of listings, each containing:
+       - id: unique listing identifier
+       - title: listing headline
+       - description: detailed listing text
+       - price: listed price
+       - location: seller location (if available)
+    
+    EVALUATION PROCESS:
+
+    For EACH listing in the scraped data:
+
+    1. Compare against Reference Analysis (Image Context):
+       - **Core Identity:** Is it the exact same object/product type? (e.g., if image is a chair, listing must be that specific chair, not a table or cushion).
+       - **Visual Attributes:** Do the defining visual characteristics match? (Color, material, shape, pattern, design style).
+       - **Specific Identifiers:** If a brand, artist, or maker is identified in the image, does the listing match it?
+       - **State & Condition:** Does the item's condition/completeness align with the visual evidence? (e.g., complete item vs. spare parts).
+
+    2. Determine Match Status:
+       - is_match: true = This listing represents the same item in a comparable state.
+       - is_match: false = This is a different item, a variant, an accessory/part, or a significantly different version.
+
+    3. Provide Clear Reasoning:
+       - Cite specific evidence from the text that confirms or contradicts the image analysis.
+       - Highlight key differentiators if it is NOT a match (e.g., "Wrong color," "Different vintage," "Replica").
+    
+    4. ALWAYS include the listing's "id" in your evaluation
+    
+    AGGREGATE METRICS:
+    
+    After evaluating all listings, calculate:
+    
+    - count_positive: Count of listings where is_match = true
+    - count_negative: Count of listings where is_match = false
+    - match_percentage: (count_positive / total_listings) × 100, rounded to 2 decimals
+    
+    SUFFICIENCY DETERMINATION:
+    
+    Results are "sufficient" when BOTH conditions are met:
+    - match_percentage >= 60%
+    
+    Otherwise, results are "not sufficient"
+    
+    FEEDBACK GENERATION:
+    
+    If results are NOT sufficient, provide specific, actionable feedback:
+    
+    - If match_percentage is very low: Suggest adding more specific terms from image analysis
+    - If count_positive is zero: Suggest removing some specific terms or using broader category
+    - If wrong products appear: Suggest specifying the correct product type or model
+    - If close but not exact: Suggest adding distinguishing features like color or generation
+    
+    Keep feedback under 200 characters and focused on ONE specific action.
+    
+    OUTPUT FORMAT:
+    
+    Return ONLY valid JSON with no markdown formatting, no code blocks, no additional text.
+    The JSON must have this EXACT structure with all required fields:
+
+  expected_output: >
+   Return ONLY valid JSON. The JSON must have this EXACT structure:
+    {
+      "individual_results_evaluation": [
+        {
+          "id": "Listing ID",
+          "price": "Exact price string from listing (e.g. '150 €' or 'VB')",
+          "is_match": true/false,
+          "reasoning": "Explanation..."
+        }
+      ],
+      "query_improvement_feedback": "..."
+    }

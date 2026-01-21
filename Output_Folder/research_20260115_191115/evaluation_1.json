@@ -1,0 +1,87 @@
+{
+  "iteration": 1,
+  "query": "FRITZ!Box 7590",
+  "evaluation": {
+    "query_used": "FRITZ!Box 7590",
+    "individual_results_evaluation": [
+      {
+        "id": "3746",
+        "price": "65 €",
+        "is_match": false,
+        "reasoning": "Repair service listing, not actual product sale. Wrong product type (service vs physical item)."
+      },
+      {
+        "id": "2003",
+        "price": "79 €",
+        "is_match": false,
+        "reasoning": "Model 7590 matches but condition 'sehr guter Zustand' indicates used item, not new in box as required."
+      },
+      {
+        "id": "3059",
+        "price": "75 € VB",
+        "is_match": false,
+        "reasoning": "Model 7590 matches but description states 'zuverlässig ihren Dienst geleistet' confirming used condition."
+      },
+      {
+        "id": "6204",
+        "price": "160 € VB",
+        "is_match": false,
+        "reasoning": "Model mismatch: '7590 AX V2' is newer variant, not base 7590 model specified in image analysis."
+      },
+      {
+        "id": "2046",
+        "price": "170 € VB",
+        "is_match": true,
+        "reasoning": "Exact model 7590, 'unbenutzt' confirms new condition, 'weißes Design mit rotem Akzent' matches color, AVM brand implied."
+      },
+      {
+        "id": "17016",
+        "price": "100 € VB",
+        "is_match": false,
+        "reasoning": "Model mismatch: '7590AX' is different variant with AX Wi-Fi 6 support, not base 7590 model."
+      },
+      {
+        "id": "2791",
+        "price": "50 € VB",
+        "is_match": false,
+        "reasoning": "Model 7590 matches but '6 Jahre alt' and 'Gebrauchsspuren' confirm used condition, not new."
+      },
+      {
+        "id": "940",
+        "price": "115 € VB",
+        "is_match": false,
+        "reasoning": "Model 7590 matches but 'gutes Zustand' indicates used item, missing new-in-box confirmation."
+      },
+      {
+        "id": "2789",
+        "price": "75 € VB",
+        "is_match": false,
+        "reasoning": "Model 7590 matches but 'gebrauchte' explicitly states used condition, not new in box."
+      },
+      {
+        "id": "296",
+        "price": "165 € VB",
+        "is_match": false,
+        "reasoning": "Model mismatch: '7590 AX' is Wi-Fi 6 variant, not base 7590 model specified in image analysis."
+      }
+    ],
+    "query_improvement_feedback": "Add 'neu OVP' to target new-in-box listings and exclude AX variants by specifying '7590' without 'AX' terms.",
+    "count_positive": 1,
+    "count_negative": 9,
+    "match_percentage": 10.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient"
+  },
+  "match_percentage": 10.0,
+  "price_statistics": {
+    "positive_match_count": 1,
+    "price_statistics": {
+      "count": 1,
+      "median": 170.0,
+      "range": "170-170",
+      "valid_prices": [
+        170.0
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "iteration": 2,
+  "query": "Fritz!Box 7590 AX v2 mit Netzteil und LAN-Kabel",
+  "evaluation": {
+    "individual_results_evaluation": []
+  },
+  "match_percentage": 0,
+  "price_statistics": {
+    "positive_match_count": 2,
+    "price_statistics": {
+      "count": 2,
+      "median": 160.0,
+      "range": "160-160",
+      "valid_prices": [
+        160.0,
+        160.0
+      ]
+    }
+  }
+}
