@@ -1,0 +1,74 @@
+{
+  "overall_sufficiency": "not sufficient",
+  "match_percentage": 30.0,
+  "count_positive": 3,
+  "count_negative": 7,
+  "query_improvement_feedback": "Add '-AX' to exclude newer model variants and specify 'white' to filter color variants",
+  "individual_results_evaluation": [
+    {
+      "id": "6822",
+      "is_match": false,
+      "reasoning": "Model mismatch: Listing specifies FRITZ!Box 7590 AX v2 (newer model) instead of target 7590"
+    },
+    {
+      "id": "16728",
+      "is_match": false,
+      "reasoning": "Model mismatch: Listing specifies FRITZ!Box 7590 AX (newer model) instead of target 7590"
+    },
+    {
+      "id": "3353",
+      "is_match": true,
+      "reasoning": "Exact brand (AVM), model (7590), condition ('sehr guter Zustand'), and original packaging match target specifications"
+    },
+    {
+      "id": "19654",
+      "is_match": false,
+      "reasoning": "Model mismatch: Listing specifies FRITZ!Box 7590 AX (newer model) instead of target 7590"
+    },
+    {
+      "id": "1003",
+      "is_match": false,
+      "reasoning": "Model mismatch: Listing specifies FRITZ!Box 7590 AX (newer model) instead of target 7590"
+    },
+    {
+      "id": "1022",
+      "is_match": false,
+      "reasoning": "Not a product listing: This is a buyer search query ('Suche') rather than a seller listing"
+    },
+    {
+      "id": "305",
+      "is_match": true,
+      "reasoning": "Exact brand (AVM), model (7590), condition ('guten Zustand'), and original packaging match target specifications"
+    },
+    {
+      "id": "3352",
+      "is_match": true,
+      "reasoning": "Exact brand (AVM) and model (7590) match; color 'Weiß' aligns with target white base (red accents implied by standard model)"
+    },
+    {
+      "id": "2457",
+      "is_match": false,
+      "reasoning": "Model mismatch: Listing specifies FRITZ!Box 7590 AX (newer model) instead of target 7590"
+    },
+    {
+      "id": "1587",
+      "is_match": false,
+      "reasoning": "Color mismatch: Listing specifies black version (1&1 variant) instead of target white with red accents"
+    }
+  ],
+  "total_listings": 10,
+  "price_statistics": {
+    "positive_match_count": 3,
+    "price_statistics": {
+      "count": 0,
+      "min": null,
+      "max": null,
+      "median": null,
+      "mean": null,
+      "range": null,
+      "valid_prices": [],
+      "error": "No valid prices found"
+    },
+    "items_with_valid_prices": 0
+  }
+}

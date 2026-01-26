@@ -1,0 +1,90 @@
+{
+  "iteration": 3,
+  "query": "Fritz!Box 7590 AX v2",
+  "evaluation": {
+    "individual_results_evaluation": [
+      {
+        "id": "6204",
+        "price": "160 € VB",
+        "is_match": true,
+        "reasoning": "Exact model 'Fritz!Box 7590 AX V2' confirmed in title and description. Includes power adapter and Ethernet cable. Condition 'sehr gut' matches 'Good' in image analysis."
+      },
+      {
+        "id": "23742",
+        "price": "96 €",
+        "is_match": true,
+        "reasoning": "Model 'FRITZ!Box 7590 AX V2' explicitly stated. Color 'Weiß' aligns with primary white color in image analysis. Minimal description but no contradictions."
+      },
+      {
+        "id": "17008",
+        "price": "180 €",
+        "is_match": true,
+        "reasoning": "Exact model 'FritzBox 7590 AX v2' in title. Includes power adapter ('Netzteil'). Condition 'tadellos Funktionierende' matches 'Good' requirement."
+      },
+      {
+        "id": "16360",
+        "price": "160 € VB",
+        "is_match": true,
+        "reasoning": "Model 'Fritzbox 7590 AX v2' confirmed. Description specifies AVM brand and functional condition. Matches core identity despite missing explicit cable mention."
+      },
+      {
+        "id": "1790",
+        "price": "200 € VB",
+        "is_match": true,
+        "reasoning": "Model 'FRITZ!Box 7590AX V2' matches (spacing variation irrelevant). Condition 'Top, wie Neu' exceeds 'Good' requirement. Wi-Fi 6 feature aligns with AX model."
+      },
+      {
+        "id": "6822",
+        "price": "160 €",
+        "is_match": true,
+        "reasoning": "Model 'FRITZ!Box 7590 AX (v2)' explicitly confirmed. Includes all required accessories (Netzteil, LAN-Kabel). Initial repeater mention is secondary and doesn't contradict core product."
+      },
+      {
+        "id": "1759",
+        "price": "140 € VB",
+        "is_match": true,
+        "reasoning": "Exact model 'Fritz Box 7590AX V2' in title. Description confirms reset device, implying functional condition matching 'Good' requirement."
+      },
+      {
+        "id": "1990",
+        "price": "150 € VB",
+        "is_match": true,
+        "reasoning": "Model 'Fritz!Box 7590 AX v2' confirmed. Wi-Fi 6 specification matches AX model capabilities. Condition 'gutem Zustand' aligns with image analysis."
+      },
+      {
+        "id": "4501",
+        "price": "175 € VB",
+        "is_match": true,
+        "reasoning": "Exact model 'FRITZ!Box 7590 AX v2' in title. 'OVP' (original packaging) implies pristine condition exceeding 'Good' requirement."
+      },
+      {
+        "id": "3773",
+        "price": "155 €",
+        "is_match": true,
+        "reasoning": "Model confirmed via AVM article number '2000 2998' (official 7590 AX v2 identifier). Condition 'wie neu' matches/exceeds 'Good' requirement."
+      }
+    ],
+    "query_improvement_feedback": ""
+  },
+  "match_percentage": 0,
+  "price_statistics": {
+    "positive_match_count": 10,
+    "price_statistics": {
+      "count": 10,
+      "median": 160.0,
+      "range": "96-200",
+      "valid_prices": [
+        96.0,
+        140.0,
+        150.0,
+        155.0,
+        160.0,
+        160.0,
+        160.0,
+        175.0,
+        180.0,
+        200.0
+      ]
+    }
+  }
+}

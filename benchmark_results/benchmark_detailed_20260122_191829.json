@@ -1,0 +1,212 @@
+{
+  "timestamp": "20260122_191829",
+  "benchmark_run": "20260122_191829",
+  "items_processed": [
+    {
+      "id": "1702",
+      "category": "Konsolen",
+      "title": "Ankauf Nintendo / Gameboy / 3DS / PlayStation/ Seg",
+      "input_data": {
+        "images": [
+          "Kleinanzeigen_Input\\images\\1702_0.jpg"
+        ],
+        "image_count": 1
+      },
+      "actual_price": 321.0,
+      "workflow_output": {
+        "best_iteration": 2,
+        "iterations_ran": 3,
+        "match_count": 4,
+        "valid_prices_found": [
+          19.0,
+          25.0,
+          34.0,
+          65.0
+        ]
+      },
+      "prediction_metrics": {
+        "predicted_price": 35.75,
+        "difference_eur": -285.25,
+        "error_percentage": 88.86,
+        "success": false,
+        "threshold_used": 15.0
+      }
+    },
+    {
+      "id": "19710",
+      "category": "Handy & Telefon",
+      "title": "Samsung Galaxy S24 Ultra Titanium Grey wie neu",
+      "input_data": {
+        "images": [
+          "Kleinanzeigen_Input\\images\\19710_0.jpg",
+          "Kleinanzeigen_Input\\images\\19710_1.jpg",
+          "Kleinanzeigen_Input\\images\\19710_2.jpg",
+          "Kleinanzeigen_Input\\images\\19710_3.jpg",
+          "Kleinanzeigen_Input\\images\\19710_4.jpg",
+          "Kleinanzeigen_Input\\images\\19710_5.jpg",
+          "Kleinanzeigen_Input\\images\\19710_6.jpg",
+          "Kleinanzeigen_Input\\images\\19710_7.jpg",
+          "Kleinanzeigen_Input\\images\\19710_8.jpg",
+          "Kleinanzeigen_Input\\images\\19710_9.jpg",
+          "Kleinanzeigen_Input\\images\\19710_10.jpg",
+          "Kleinanzeigen_Input\\images\\19710_11.jpg",
+          "Kleinanzeigen_Input\\images\\19710_12.jpg",
+          "Kleinanzeigen_Input\\images\\19710_13.jpg",
+          "Kleinanzeigen_Input\\images\\19710_14.jpg"
+        ],
+        "image_count": 15
+      },
+      "actual_price": 620.0,
+      "workflow_output": {
+        "best_iteration": 0,
+        "iterations_ran": 3,
+        "match_count": 0,
+        "valid_prices_found": []
+      },
+      "prediction_metrics": {
+        "predicted_price": 0.0,
+        "difference_eur": -620.0,
+        "error_percentage": 100.0,
+        "success": false,
+        "threshold_used": 15.0
+      }
+    },
+    {
+      "id": "9008",
+      "category": "Tablets & Reader",
+      "title": "Apple iPad Silver  - guter Zustand",
+      "input_data": {
+        "images": [
+          "Kleinanzeigen_Input\\images\\9008_0.jpg",
+          "Kleinanzeigen_Input\\images\\9008_1.jpg",
+          "Kleinanzeigen_Input\\images\\9008_2.jpg",
+          "Kleinanzeigen_Input\\images\\9008_3.jpg"
+        ],
+        "image_count": 4
+      },
+      "actual_price": 350.0,
+      "workflow_output": {
+        "best_iteration": 0,
+        "iterations_ran": 3,
+        "match_count": 0,
+        "valid_prices_found": []
+      },
+      "prediction_metrics": {
+        "predicted_price": 0.0,
+        "difference_eur": -350.0,
+        "error_percentage": 100.0,
+        "success": false,
+        "threshold_used": 15.0
+      }
+    },
+    {
+      "id": "2124",
+      "category": "Konsolen",
+      "title": "Nintendo Switch Lite türkis - portable Gaming Kons",
+      "input_data": {
+        "images": [
+          "Kleinanzeigen_Input\\images\\2124_0.jpg",
+          "Kleinanzeigen_Input\\images\\2124_1.jpg",
+          "Kleinanzeigen_Input\\images\\2124_2.jpg"
+        ],
+        "image_count": 3
+      },
+      "actual_price": 110.0,
+      "workflow_output": {
+        "best_iteration": 0,
+        "iterations_ran": 3,
+        "match_count": 0,
+        "valid_prices_found": []
+      },
+      "prediction_metrics": {
+        "predicted_price": 0.0,
+        "difference_eur": -110.0,
+        "error_percentage": 100.0,
+        "success": false,
+        "threshold_used": 15.0
+      }
+    },
+    {
+      "id": "9105",
+      "category": "Foto",
+      "title": "Vintage Faltkamera Balgenkamera schwarz Sammlerstü",
+      "input_data": {
+        "images": [
+          "Kleinanzeigen_Input\\images\\9105_0.jpg",
+          "Kleinanzeigen_Input\\images\\9105_1.jpg",
+          "Kleinanzeigen_Input\\images\\9105_2.jpg",
+          "Kleinanzeigen_Input\\images\\9105_3.jpg",
+          "Kleinanzeigen_Input\\images\\9105_4.jpg",
+          "Kleinanzeigen_Input\\images\\9105_5.jpg"
+        ],
+        "image_count": 6
+      },
+      "actual_price": 250.0,
+      "workflow_output": {
+        "best_iteration": 0,
+        "iterations_ran": 3,
+        "match_count": 0,
+        "valid_prices_found": []
+      },
+      "prediction_metrics": {
+        "predicted_price": 0.0,
+        "difference_eur": -250.0,
+        "error_percentage": 100.0,
+        "success": false,
+        "threshold_used": 15.0
+      }
+    },
+    {
+      "id": "5382",
+      "category": "Haushaltsgeräte",
+      "title": "Silvercrest Pürierstab weiß - Stabmixer",
+      "input_data": {
+        "images": [
+          "Kleinanzeigen_Input\\images\\5382_0.jpg"
+        ],
+        "image_count": 1
+      },
+      "actual_price": 10.0,
+      "workflow_output": {
+        "best_iteration": 0,
+        "iterations_ran": 3,
+        "match_count": 0,
+        "valid_prices_found": []
+      },
+      "prediction_metrics": {
+        "predicted_price": 0.0,
+        "difference_eur": -10.0,
+        "error_percentage": 100.0,
+        "success": false,
+        "threshold_used": 15.0
+      }
+    },
+    {
+      "id": "4109",
+      "category": "Konsolen",
+      "title": "Cronus Zen",
+      "input_data": {
+        "images": [
+          "Kleinanzeigen_Input\\images\\4109_0.jpg",
+          "Kleinanzeigen_Input\\images\\4109_1.jpg"
+        ],
+        "image_count": 2
+      },
+      "actual_price": 110.0,
+      "workflow_output": {
+        "best_iteration": 0,
+        "iterations_ran": 3,
+        "match_count": 0,
+        "valid_prices_found": []
+      },
+      "prediction_metrics": {
+        "predicted_price": 0.0,
+        "difference_eur": -110.0,
+        "error_percentage": 100.0,
+        "success": false,
+        "threshold_used": 15.0
+      }
+    }
+  ],
+  "summary": {}
+}

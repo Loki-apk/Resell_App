@@ -1,0 +1,31 @@
+{
+  "iteration": 1,
+  "query": "Sony ICF-M600",
+  "evaluation": {
+    "individual_results_evaluation": [
+      {
+        "id": "29817",
+        "price": "590 € VB",
+        "is_match": false,
+        "reasoning": "Brand mismatch (Focal headphones vs Sony radio), wrong product type (headphones instead of FM radio), no mention of ICF-M600 model or radio-specific features like antenna/tuning knobs"
+      },
+      {
+        "id": "6273",
+        "price": "650 €",
+        "is_match": false,
+        "reasoning": "Brand/model mismatch (Focal Radiance headphones), describes audio equipment with cable details instead of radio components, lacks all key features like PLL synthesis or battery compartment"
+      }
+    ],
+    "query_improvement_feedback": "Add 'radio' to query to exclude headphones. Current results show audio equipment confusion."
+  },
+  "match_percentage": 0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "median": 0,
+      "range": "N/A",
+      "valid_prices": []
+    }
+  }
+}

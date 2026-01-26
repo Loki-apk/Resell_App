@@ -1,0 +1,79 @@
+{
+  "iteration": 2,
+  "query": "",
+  "evaluation": {
+    "individual_results_evaluation": [
+      {
+        "id": "2118",
+        "price": "37 € VB",
+        "is_match": false,
+        "reasoning": "Image analysis failed; no reference data available to confirm match for Autoemblem EISENACHER"
+      },
+      {
+        "id": "3111",
+        "price": "28 €",
+        "is_match": false,
+        "reasoning": "Image analysis failed; no reference data available to confirm match for Coca Cola Werbetafel"
+      },
+      {
+        "id": "16514",
+        "price": "N/A",
+        "is_match": false,
+        "reasoning": "Image analysis failed; no reference data available to confirm match for diverse Gebrauchte Artikel"
+      },
+      {
+        "id": "14101",
+        "price": "VB",
+        "is_match": false,
+        "reasoning": "Image analysis failed; no reference data available to confirm match for Siemens Sirona M1 Ersatzteile"
+      },
+      {
+        "id": "1799",
+        "price": "3 €",
+        "is_match": false,
+        "reasoning": "Image analysis failed; no reference data available to confirm match for Beauty Artikel LACURA"
+      },
+      {
+        "id": "1998",
+        "price": "189 € VB",
+        "is_match": false,
+        "reasoning": "Image analysis failed; no reference data available to confirm match for Jägermeister Slotmaschine"
+      },
+      {
+        "id": "4981",
+        "price": "5 €",
+        "is_match": false,
+        "reasoning": "Image analysis failed; no reference data available to confirm match for Coca Cola Werbetrucks"
+      },
+      {
+        "id": "6304",
+        "price": "15 €",
+        "is_match": false,
+        "reasoning": "Image analysis failed; no reference data available to confirm match for Marlboro Aschenbecher"
+      },
+      {
+        "id": "13379",
+        "price": "45 € VB",
+        "is_match": false,
+        "reasoning": "Image analysis failed; no reference data available to confirm match for Tupperartikel"
+      },
+      {
+        "id": "7113",
+        "price": "8 € VB",
+        "is_match": false,
+        "reasoning": "Image analysis failed; no reference data available to confirm match for Tupperware Artikel"
+      }
+    ],
+    "query_improvement_feedback": "Image analysis failed; ensure valid product images are provided for accurate matching."
+  },
+  "match_percentage": 0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "median": 0,
+      "range": "N/A",
+      "valid_prices": []
+    }
+  }
+}

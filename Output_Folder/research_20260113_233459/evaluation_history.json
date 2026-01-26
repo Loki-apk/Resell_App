@@ -1,0 +1,76 @@
+[
+  {
+    "iteration": 1,
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 0.0,
+      "count_positive": 0,
+      "count_negative": 0,
+      "query_improvement_feedback": "Query too specific - remove 'schwarz' to capture more relevant listings",
+      "individual_results_evaluation": []
+    }
+  },
+  {
+    "iteration": 2,
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 12.5,
+      "count_positive": 1,
+      "count_negative": 7,
+      "query_improvement_feedback": "Add 'Gen 2' and 'new' to exclude SL models and used items",
+      "individual_results_evaluation": [
+        {
+          "id": "30126",
+          "is_match": false,
+          "reasoning": "Accessory (stand) not the speaker itself. Wrong product type."
+        },
+        {
+          "id": "19630",
+          "is_match": false,
+          "reasoning": "Wall mount accessory, not the speaker. Wrong product type."
+        },
+        {
+          "id": "2932",
+          "is_match": true,
+          "reasoning": "Includes Sonos One Gen 2 (matches model), black color, neuwertig condition aligns with new, correct brand and key features implied."
+        },
+        {
+          "id": "2229",
+          "is_match": false,
+          "reasoning": "Model is Sonos One SL (lacks Alexa), does not match Sonos One Gen 2 target."
+        },
+        {
+          "id": "2101",
+          "is_match": false,
+          "reasoning": "Condition 'guter Zustand' (used) does not match 'new' requirement from image analysis."
+        },
+        {
+          "id": "8266",
+          "is_match": false,
+          "reasoning": "Model is Play:1 (different product line), color white does not match black."
+        },
+        {
+          "id": "6434",
+          "is_match": false,
+          "reasoning": "Bodenständer accessory, not the speaker. Wrong product type."
+        },
+        {
+          "id": "6454",
+          "is_match": false,
+          "reasoning": "Model is Sonos One SL (no Alexa), does not match Sonos One Gen 2 target."
+        }
+      ]
+    }
+  },
+  {
+    "iteration": 3,
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 0.0,
+      "count_positive": 0,
+      "count_negative": 0,
+      "query_improvement_feedback": "Query too specific. Remove 'Gen 2' to capture all Sonos One variants.",
+      "individual_results_evaluation": []
+    }
+  }
+]

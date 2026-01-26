@@ -1,0 +1,18 @@
+{
+  "iteration": 3,
+  "query": "Sonos Play3",
+  "evaluation": {
+    "individual_results_evaluation": [],
+    "query_improvement_feedback": "No results found. Query too specific - use official model name 'Play:3' with colon instead of 'Play3'."
+  },
+  "match_percentage": 0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "median": 0,
+      "range": "N/A",
+      "valid_prices": []
+    }
+  }
+}

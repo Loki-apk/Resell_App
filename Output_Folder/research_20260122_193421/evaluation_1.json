@@ -1,0 +1,88 @@
+{
+  "iteration": 1,
+  "query": "Lenovo 21CB-01HGE",
+  "evaluation": {
+    "individual_results_evaluation": [
+      {
+        "id": "784",
+        "price": "",
+        "is_match": false,
+        "reasoning": "Listing is for Nintendo Gamecube console and accessories, not a Lenovo laptop. Wrong product category entirely."
+      },
+      {
+        "id": "7417",
+        "price": "170 €",
+        "is_match": false,
+        "reasoning": "Nintendo Switch console with Gamecube controller. Brand, product type, and model completely mismatch Lenovo ThinkPad."
+      },
+      {
+        "id": "27480",
+        "price": "210 € VB",
+        "is_match": false,
+        "reasoning": "Nintendo Switch console in white. Entirely different product category (gaming console vs business laptop)."
+      },
+      {
+        "id": "4315",
+        "price": "65 €",
+        "is_match": false,
+        "reasoning": "Nintendo Switch Pro Controller. Accessory for gaming console, not a laptop. Brand and product type mismatch."
+      },
+      {
+        "id": "1768",
+        "price": "25 €",
+        "is_match": false,
+        "reasoning": "Third-party Joy-Con controller for Nintendo Switch. Wrong brand, product type, and category."
+      },
+      {
+        "id": "3043",
+        "price": "34 € VB",
+        "is_match": false,
+        "reasoning": "Nintendo Switch Joy-Con controllers. Gaming accessory, not a laptop. Complete category mismatch."
+      },
+      {
+        "id": "15340",
+        "price": "19 €",
+        "is_match": false,
+        "reasoning": "Third-party Pro Controller for Nintendo Switch. Irrelevant product category and brand."
+      },
+      {
+        "id": "784",
+        "price": "90 €",
+        "is_match": false,
+        "reasoning": "Nintendo NES console with controllers. Retro gaming system, no relation to Lenovo laptop."
+      },
+      {
+        "id": "23665",
+        "price": "90 €",
+        "is_match": false,
+        "reasoning": "Nintendo NES console from 1980s. Completely different product category and era."
+      },
+      {
+        "id": "2135",
+        "price": "220 € VB",
+        "is_match": false,
+        "reasoning": "Nintendo Switch Gen 1 with games. Gaming console bundle, not a business laptop."
+      }
+    ],
+    "count_positive": 0,
+    "count_negative": 10,
+    "match_percentage": 0.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient",
+    "query_improvement_feedback": "Query returned Nintendo products instead of laptops. Add 'Laptop' to query to target correct category."
+  },
+  "count_positive": 0,
+  "count_negative": 10,
+  "total_listings": 10,
+  "match_percentage": 0.0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "median": 0,
+      "average_price": 0,
+      "range": "N/A",
+      "valid_prices": []
+    }
+  }
+}

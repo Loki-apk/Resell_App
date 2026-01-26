@@ -1,0 +1,273 @@
+{
+  "success": false,
+  "best_iteration": 0,
+  "best_result": {
+    "match_percentage": 0
+  },
+  "history": [
+    {
+      "iteration": 1,
+      "query": "CROSS Zen",
+      "evaluation": {
+        "individual_results_evaluation": [
+          {
+            "id": "784",
+            "price": "",
+            "is_match": false,
+            "reasoning": "Listing describes Nintendo Gamecube console with controllers and cables. No mention of CROSS ZEN adapter, gaming adapter features, or black/blue color. Completely different product category (console vs adapter)."
+          },
+          {
+            "id": "7417",
+            "price": "170 €",
+            "is_match": false,
+            "reasoning": "Nintendo Switch bundle with Gamecube/Joycon controllers and games. Contains no reference to CROSS brand, Zen model, or adapter features like aim assist/hair triggers. Wrong product type."
+          },
+          {
+            "id": "27480",
+            "price": "210 € VB",
+            "is_match": false,
+            "reasoning": "Nintendo Switch console listing. Focuses on console functionality and Joy-Con controllers. Lacks all key features of CROSS ZEN (stabilizer, anti-recoil etc.) and brand/model identification."
+          },
+          {
+            "id": "4315",
+            "price": "65 €",
+            "is_match": false,
+            "reasoning": "Nintendo Switch Pro Controller listing. Describes standard controller features without any CROSS branding, Zen model reference, or specialized gaming adapter capabilities."
+          },
+          {
+            "id": "1768",
+            "price": "25 €",
+            "is_match": false,
+            "reasoning": "KingGear Joy-Con controller replica. Third-party accessory for Switch with no relation to CROSS ZEN's console adapter functionality or specified features."
+          },
+          {
+            "id": "3043",
+            "price": "34 € VB",
+            "is_match": false,
+            "reasoning": "Nintendo Joy-Con controllers listing. Focuses on standard motion controls and compatibility. Missing CROSS branding, Zen model, and all specialized adapter features like drop shot/anti-recoil."
+          },
+          {
+            "id": "15340",
+            "price": "19 €",
+            "is_match": false,
+            "reasoning": "Generic wireless Pro Controller for Switch. Contains no CROSS identification, Zen model reference, or specialized gaming adapter features specified in image analysis."
+          },
+          {
+            "id": "784",
+            "price": "90 €",
+            "is_match": false,
+            "reasoning": "Nintendo NES retro console bundle. Completely different era and product category (80s console vs modern gaming adapter). No overlap in features or specifications."
+          },
+          {
+            "id": "23665",
+            "price": "90 €",
+            "is_match": false,
+            "reasoning": "NES console listing. Focuses on retro gaming hardware with no connection to CROSS ZEN's modern console adapter functionality or specified technical features."
+          },
+          {
+            "id": "2135",
+            "price": "220 € VB",
+            "is_match": false,
+            "reasoning": "Nintendo Switch bundle with Pro Controller and games. Contains standard console accessories but lacks all CROSS ZEN-specific features like hair triggers, scope, or anti-recoil systems."
+          }
+        ],
+        "count_positive": 0,
+        "count_negative": 10,
+        "match_percentage": 0.0,
+        "total_listings": 10,
+        "overall_sufficiency": "not sufficient",
+        "query_improvement_feedback": "Add 'console gaming adapter' to query to exclude consoles/controllers. Current results are 100% Nintendo hardware."
+      },
+      "count_positive": 0,
+      "count_negative": 10,
+      "total_listings": 10,
+      "match_percentage": 0.0,
+      "price_statistics": {
+        "positive_match_count": 0,
+        "price_statistics": {
+          "count": 0,
+          "median": 0,
+          "average_price": 0,
+          "range": "N/A",
+          "valid_prices": []
+        }
+      }
+    },
+    {
+      "iteration": 2,
+      "query": "cross zen konsolen gaming adapter",
+      "evaluation": {
+        "individual_results_evaluation": [
+          {
+            "id": "784",
+            "price": "",
+            "is_match": false,
+            "reasoning": "Nintendo Gamecube console and controllers - completely different product category with no mention of CROSS ZEN adapter features"
+          },
+          {
+            "id": "7417",
+            "price": "170 €",
+            "is_match": false,
+            "reasoning": "Nintendo Switch bundle with controllers and games - lacks all CROSS ZEN adapter specifications and features"
+          },
+          {
+            "id": "27480",
+            "price": "210 € VB",
+            "is_match": false,
+            "reasoning": "Nintendo Switch console with Joy-Cons - describes gaming hardware but no adapter functionality or CROSS ZEN features"
+          },
+          {
+            "id": "4315",
+            "price": "65 €",
+            "is_match": false,
+            "reasoning": "Nintendo Switch Pro Controller - accessory for console, not a gaming adapter with specified features"
+          },
+          {
+            "id": "1768",
+            "price": "25 €",
+            "is_match": false,
+            "reasoning": "Third-party Joy-Con controller - unrelated to console gaming adapter functionality"
+          },
+          {
+            "id": "3043",
+            "price": "34 € VB",
+            "is_match": false,
+            "reasoning": "Joy-Con controllers - describes standard Nintendo accessories without adapter capabilities"
+          },
+          {
+            "id": "15340",
+            "price": "19 €",
+            "is_match": false,
+            "reasoning": "Wireless Pro Controller for Switch - generic controller, no CROSS ZEN features or adapter functionality"
+          },
+          {
+            "id": "784",
+            "price": "90 €",
+            "is_match": false,
+            "reasoning": "Nintendo NES retro console - completely different product category and era"
+          },
+          {
+            "id": "23665",
+            "price": "90 €",
+            "is_match": false,
+            "reasoning": "NES console with controller - vintage gaming hardware unrelated to modern gaming adapters"
+          },
+          {
+            "id": "2135",
+            "price": "220 € VB",
+            "is_match": false,
+            "reasoning": "Nintendo Switch bundle with games - describes console package, not a gaming adapter device"
+          }
+        ],
+        "count_positive": 0,
+        "count_negative": 10,
+        "match_percentage": 0.0,
+        "total_listings": 10,
+        "overall_sufficiency": "not sufficient",
+        "query_improvement_feedback": "Query targets Nintendo hardware instead of gaming adapters. Add 'adapter' and verify correct brand (Cronus vs CROSS)."
+      },
+      "count_positive": 0,
+      "count_negative": 10,
+      "total_listings": 10,
+      "match_percentage": 0.0,
+      "price_statistics": {
+        "positive_match_count": 0,
+        "price_statistics": {
+          "count": 0,
+          "median": 0,
+          "average_price": 0,
+          "range": "N/A",
+          "valid_prices": []
+        }
+      }
+    },
+    {
+      "iteration": 3,
+      "query": "CROSS Zen Adapter",
+      "evaluation": {
+        "individual_results_evaluation": [
+          {
+            "id": "784",
+            "price": "",
+            "is_match": false,
+            "reasoning": "Listing is for Nintendo Gamecube console with controllers, not CROSS ZEN gaming adapter. Wrong product category and no mention of CROSS brand or key features like aim assist."
+          },
+          {
+            "id": "7417",
+            "price": "170 €",
+            "is_match": false,
+            "reasoning": "Nintendo Switch console with Gamecube/Joycon controllers. No reference to CROSS Zen, stabilizer features, or adapter functionality. Completely different product type."
+          },
+          {
+            "id": "27480",
+            "price": "210 € VB",
+            "is_match": false,
+            "reasoning": "Nintendo Switch console listing. Mentions Joy-Con controllers but lacks CROSS branding, Zen model, and all key features like hair triggers or anti-recoil."
+          },
+          {
+            "id": "4315",
+            "price": "65 €",
+            "is_match": false,
+            "reasoning": "Nintendo Switch Pro Controller listing. Described as 'originalverpackt' but contains zero references to CROSS, Zen model, or required features like drop shot functionality."
+          },
+          {
+            "id": "1768",
+            "price": "25 €",
+            "is_match": false,
+            "reasoning": "KingGear Joy-Con controller clone. Wrong brand (KingGear vs CROSS), no Zen model reference, and missing all 13 key features from image analysis."
+          },
+          {
+            "id": "3043",
+            "price": "34 € VB",
+            "is_match": false,
+            "reasoning": "Nintendo Joy-Con controllers (blue/red). Explicitly states 'nicht original' but still unrelated to CROSS Zen adapter. No stabilizer or aim assist features mentioned."
+          },
+          {
+            "id": "15340",
+            "price": "19 €",
+            "is_match": false,
+            "reasoning": "Generic wireless Pro Controller for Switch. Contains 'Dritthersteller' disclaimer but zero CROSS branding or Zen-specific features like target lock."
+          },
+          {
+            "id": "784",
+            "price": "90 €",
+            "is_match": false,
+            "reasoning": "Nintendo NES retro console bundle. Completely different era/product category. No adapter functionality or CROSS references."
+          },
+          {
+            "id": "23665",
+            "price": "90 €",
+            "is_match": false,
+            "reasoning": "NES console listing. Mentions 1980s hardware which predates CROSS Zen technology by decades. No match for modern adapter features."
+          },
+          {
+            "id": "2135",
+            "price": "220 € VB",
+            "is_match": false,
+            "reasoning": "Nintendo Switch Gen 1 bundle with games. Contains Pro Controller but no indication of CROSS hardware modification or Zen model features."
+          }
+        ],
+        "count_positive": 0,
+        "count_negative": 10,
+        "match_percentage": 0.0,
+        "total_listings": 10,
+        "overall_sufficiency": "not sufficient",
+        "query_improvement_feedback": "Add specific feature terms like 'aim assist' or 'anti-recoil' to exclude console/controller listings"
+      },
+      "count_positive": 0,
+      "count_negative": 10,
+      "total_listings": 10,
+      "match_percentage": 0.0,
+      "price_statistics": {
+        "positive_match_count": 0,
+        "price_statistics": {
+          "count": 0,
+          "median": 0,
+          "average_price": 0,
+          "range": "N/A",
+          "valid_prices": []
+        }
+      }
+    }
+  ]
+}

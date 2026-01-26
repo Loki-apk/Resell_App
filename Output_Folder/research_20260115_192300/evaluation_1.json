@@ -1,0 +1,87 @@
+{
+  "iteration": 1,
+  "query": "FRITZ!Box 7590",
+  "evaluation": {
+    "query_used": "FRITZ!Box 7590",
+    "individual_results_evaluation": [
+      {
+        "id": "2789",
+        "price": "75 € VB",
+        "is_match": false,
+        "reasoning": "Model 7590 matches but condition is used (reset device), missing 'new in box' requirement from image analysis"
+      },
+      {
+        "id": "2046",
+        "price": "170 € VB",
+        "is_match": true,
+        "reasoning": "Exact model 7590, 'unbenutzt' confirms new condition, 'weißes Design mit rotem Akzent' matches color, packaging implied by 'neuwertig'"
+      },
+      {
+        "id": "20340",
+        "price": "50 € VB",
+        "is_match": false,
+        "reasoning": "Model 7590 present but explicitly 'defekt' and 5 years old, violates 'new in box' condition"
+      },
+      {
+        "id": "6204",
+        "price": "160 € VB",
+        "is_match": false,
+        "reasoning": "Model is 7590 AX V2 (newer generation), packaging missing, violates original model and 'new in box' requirements"
+      },
+      {
+        "id": "2434",
+        "price": "80 €",
+        "is_match": false,
+        "reasoning": "Model 7590 but modified (repaired components), sold with 'Serienfehler', violates new condition"
+      },
+      {
+        "id": "6838",
+        "price": "88 €",
+        "is_match": false,
+        "reasoning": "Model is 7590 AX v2 (different generation), not matching original 7590 specification"
+      },
+      {
+        "id": "3534",
+        "price": "30 € VB",
+        "is_match": false,
+        "reasoning": "Model 7590 listed but price too low for new item, no condition details suggesting used product"
+      },
+      {
+        "id": "1009",
+        "price": "5 €",
+        "is_match": false,
+        "reasoning": "Selling accessories (stand feet) for 7590, not the router itself"
+      },
+      {
+        "id": "1580",
+        "price": "60 € VB",
+        "is_match": false,
+        "reasoning": "Model 7590 but defective (2.4GHz not working), violates new condition"
+      },
+      {
+        "id": "296",
+        "price": "165 € VB",
+        "is_match": false,
+        "reasoning": "Model is 7590 AX (different generation), not matching original 7590 specification"
+      }
+    ],
+    "query_improvement_feedback": "Add 'neu OVP' and exclude 'AX' to target new non-AX 7590 models in original packaging",
+    "count_positive": 1,
+    "count_negative": 9,
+    "match_percentage": 10.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient"
+  },
+  "match_percentage": 10.0,
+  "price_statistics": {
+    "positive_match_count": 1,
+    "price_statistics": {
+      "count": 1,
+      "median": 170.0,
+      "range": "170-170",
+      "valid_prices": [
+        170.0
+      ]
+    }
+  }
+}

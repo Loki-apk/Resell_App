@@ -1,0 +1,92 @@
+{
+  "iteration": 1,
+  "query": "FRITZ!Box 7590",
+  "evaluation": {
+    "query_used": "FRITZ!Box 7590",
+    "individual_results_evaluation": [
+      {
+        "id": "305",
+        "price": "100 €",
+        "is_match": true,
+        "reasoning": "Brand (AVM) and model (7590) match exactly. Key features like ports and color align despite minor yellowing (condition variance acceptable for same product model)."
+      },
+      {
+        "id": "4919",
+        "price": "75 € VB",
+        "is_match": true,
+        "reasoning": "Explicit '7590' model and AVM brand mentioned. Key features (WLAN, ports) consistent with target product despite no condition specification."
+      },
+      {
+        "id": "30159",
+        "price": "VB",
+        "is_match": true,
+        "reasoning": "Correct model (7590) and implied AVM brand. Defective condition differs from 'new' target but product identity remains valid match."
+      },
+      {
+        "id": "17016",
+        "price": "100 € VB",
+        "is_match": false,
+        "reasoning": "Model '7590AX' is newer generation (Wi-Fi 6) - key feature mismatch with target's non-AX specification."
+      },
+      {
+        "id": "4293",
+        "price": "170 €",
+        "is_match": false,
+        "reasoning": "Selling '7590 AX' model (Wi-Fi 6) which has different hardware specs than target 7590 non-AX unit."
+      },
+      {
+        "id": "3746",
+        "price": "65 €",
+        "is_match": false,
+        "reasoning": "Service listing for repairs, not a product sale. Wrong product type entirely."
+      },
+      {
+        "id": "1003",
+        "price": "125 €",
+        "is_match": false,
+        "reasoning": "Model '7590 AX' specified - incompatible with target's non-AX hardware generation."
+      },
+      {
+        "id": "2789",
+        "price": "75 € VB",
+        "is_match": true,
+        "reasoning": "Exact '7590' model and AVM brand confirmed. Condition unspecified but product identity matches."
+      },
+      {
+        "id": "5982",
+        "price": "120 € VB",
+        "is_match": true,
+        "reasoning": "Correct model (7590) with OVP mention. Minor usage acceptable variance for product identity match."
+      },
+      {
+        "id": "16728",
+        "price": "110 € VB",
+        "is_match": false,
+        "reasoning": "Selling '7590 AX' model - key feature mismatch in wireless generation (Wi-Fi 6 vs target's Wi-Fi 5)."
+      }
+    ],
+    "query_improvement_feedback": "Add '-AX' to query to exclude newer Wi-Fi 6 models and focus on standard 7590 units.",
+    "count_positive": 5,
+    "count_negative": 5,
+    "match_percentage": 50.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient"
+  },
+  "match_percentage": 50.0,
+  "price_statistics": {
+    "positive_match_count": 5,
+    "price_statistics": {
+      "count": 4,
+      "min": 75.0,
+      "max": 120.0,
+      "median": 87.5,
+      "mean": 92.5,
+      "valid_prices": [
+        75.0,
+        75.0,
+        100.0,
+        120.0
+      ]
+    }
+  }
+}

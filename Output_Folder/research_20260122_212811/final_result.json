@@ -1,0 +1,255 @@
+{
+  "success": false,
+  "best_iteration": 0,
+  "best_result": {
+    "match_percentage": 0
+  },
+  "history": [
+    {
+      "iteration": 1,
+      "query": "PC Gehäuse",
+      "evaluation": {
+        "individual_results_evaluation": [
+          {
+            "id": "8071",
+            "price": "150 € VB",
+            "is_match": false,
+            "reasoning": "Listing is for DUAL CS455-1 turntable (Plattenspieler), not a PC case. Core identity mismatch: audio equipment vs computer hardware."
+          },
+          {
+            "id": "7210",
+            "price": "VB",
+            "is_match": false,
+            "reasoning": "Listing describes Dual CS 455-1 turntable collection. Product type mismatch: vinyl record player vs PC case."
+          },
+          {
+            "id": "3473",
+            "price": "99 €",
+            "is_match": false,
+            "reasoning": "Plattenspieler Dual CS 455-1 turntable listed. Complete product category mismatch with PC Gehäuse target."
+          },
+          {
+            "id": "4896",
+            "price": "170 € VB",
+            "is_match": false,
+            "reasoning": "DUAL CS 455-1 turntable with belt drive. Wrong product category: audio equipment instead of computer case."
+          },
+          {
+            "id": "1353",
+            "price": "100 € VB",
+            "is_match": false,
+            "reasoning": "Plattenspieler Dual CS 455-1 listing. Fundamental mismatch: turntable vs PC case product type."
+          },
+          {
+            "id": "4933",
+            "price": "55 €",
+            "is_match": false,
+            "reasoning": "Dual CS 455-1 Schallplattenspieler (record player). No relation to computer case hardware."
+          },
+          {
+            "id": "24586",
+            "price": "120 € VB",
+            "is_match": false,
+            "reasoning": "Automated turntable listing. Product category error: audio device vs PC Gehäuse target."
+          },
+          {
+            "id": "4217",
+            "price": "160 €",
+            "is_match": false,
+            "reasoning": "HI FI Schallplattenspieler Dual CS455-1. Completely different product category from PC cases."
+          },
+          {
+            "id": "3501",
+            "price": "45 €",
+            "is_match": false,
+            "reasoning": "DUAL CS 455-1 turntable with motor issues. Zero alignment with computer case requirements."
+          }
+        ],
+        "count_positive": 0,
+        "count_negative": 9,
+        "match_percentage": 0.0,
+        "total_listings": 9,
+        "overall_sufficiency": "not sufficient",
+        "query_improvement_feedback": "Query 'PC Gehäuse' incorrectly retrieves audio equipment. Add 'Computer' or 'Tower' to exclude turntables."
+      },
+      "count_positive": 0,
+      "count_negative": 9,
+      "total_listings": 9,
+      "match_percentage": 0.0,
+      "price_statistics": {
+        "positive_match_count": 0,
+        "price_statistics": {
+          "count": 0,
+          "median": 0,
+          "average_price": 0,
+          "range": "N/A",
+          "valid_prices": []
+        }
+      }
+    },
+    {
+      "iteration": 2,
+      "query": "Computer Gehäuse",
+      "evaluation": {
+        "individual_results_evaluation": [
+          {
+            "id": "8071",
+            "price": "150 € VB",
+            "is_match": false,
+            "reasoning": "Wrong product category: Listing is for Dual CS455-1 turntable, not computer case. Image analysis required computer cases but found audio equipment."
+          },
+          {
+            "id": "7210",
+            "price": "VB",
+            "is_match": false,
+            "reasoning": "Wrong product category: Listing describes Dual CS 455-1 turntable collection. No computer case attributes match image analysis requirements."
+          },
+          {
+            "id": "3473",
+            "price": "99 €",
+            "is_match": false,
+            "reasoning": "Wrong product category: 'Plattenspieler Dual CS 455-1' is a turntable. Image analysis required computer cases with specific models/colors."
+          },
+          {
+            "id": "4896",
+            "price": "170 € VB",
+            "is_match": false,
+            "reasoning": "Wrong product category: Dual CS 455-1 turntable listing. Core identity mismatch - image analysis targeted computer cases."
+          },
+          {
+            "id": "1353",
+            "price": "100 € VB",
+            "is_match": false,
+            "reasoning": "Wrong product category: 'Plattenspieler Dual CS 455-1' is audio equipment. Fails core identity check against computer case requirement."
+          },
+          {
+            "id": "4933",
+            "price": "55 €",
+            "is_match": false,
+            "reasoning": "Wrong product category: Turntable listing (Dual CS 455-1). No alignment with computer case visual attributes or specifications."
+          },
+          {
+            "id": "24586",
+            "price": "120 € VB",
+            "is_match": false,
+            "reasoning": "Wrong product category: 'Dual CS 455-1 Plattenspieler' is turntable. Image analysis required computer cases with consistent models."
+          },
+          {
+            "id": "4217",
+            "price": "160 €",
+            "is_match": false,
+            "reasoning": "Wrong product category: HI FI Schallplattenspieler listing. Complete mismatch with computer case product type from image analysis."
+          },
+          {
+            "id": "3501",
+            "price": "45 €",
+            "is_match": false,
+            "reasoning": "Wrong product category: Dual CS 455-1 turntable with motor issues. Fails all evaluation criteria for computer case matching."
+          }
+        ],
+        "count_positive": 0,
+        "count_negative": 9,
+        "match_percentage": 0.0,
+        "total_listings": 9,
+        "overall_sufficiency": "not sufficient",
+        "query_improvement_feedback": "Query targets wrong category; replace 'Computer Gehäuse' with specific case terms like 'ATX Gehäuse' and exclude audio keywords."
+      },
+      "count_positive": 0,
+      "count_negative": 9,
+      "total_listings": 9,
+      "match_percentage": 0.0,
+      "price_statistics": {
+        "positive_match_count": 0,
+        "price_statistics": {
+          "count": 0,
+          "median": 0,
+          "average_price": 0,
+          "range": "N/A",
+          "valid_prices": []
+        }
+      }
+    },
+    {
+      "iteration": 3,
+      "query": "ATX Gehäuse",
+      "evaluation": {
+        "individual_results_evaluation": [
+          {
+            "id": "8071",
+            "price": "150 € VB",
+            "is_match": false,
+            "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+          },
+          {
+            "id": "7210",
+            "price": "VB",
+            "is_match": false,
+            "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+          },
+          {
+            "id": "3473",
+            "price": "99 €",
+            "is_match": false,
+            "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+          },
+          {
+            "id": "4896",
+            "price": "170 € VB",
+            "is_match": false,
+            "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+          },
+          {
+            "id": "1353",
+            "price": "100 € VB",
+            "is_match": false,
+            "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+          },
+          {
+            "id": "4933",
+            "price": "55 €",
+            "is_match": false,
+            "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+          },
+          {
+            "id": "24586",
+            "price": "120 € VB",
+            "is_match": false,
+            "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+          },
+          {
+            "id": "4217",
+            "price": "160 €",
+            "is_match": false,
+            "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+          },
+          {
+            "id": "3501",
+            "price": "45 €",
+            "is_match": false,
+            "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+          }
+        ],
+        "count_positive": 0,
+        "count_negative": 9,
+        "match_percentage": 0.0,
+        "total_listings": 9,
+        "overall_sufficiency": "not sufficient",
+        "query_improvement_feedback": "Query targets wrong category. Replace 'ATX Gehäuse' with specific computer case model from image analysis."
+      },
+      "count_positive": 0,
+      "count_negative": 9,
+      "total_listings": 9,
+      "match_percentage": 0.0,
+      "price_statistics": {
+        "positive_match_count": 0,
+        "price_statistics": {
+          "count": 0,
+          "median": 0,
+          "average_price": 0,
+          "range": "N/A",
+          "valid_prices": []
+        }
+      }
+    }
+  ]
+}

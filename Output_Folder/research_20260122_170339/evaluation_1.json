@@ -1,0 +1,18 @@
+{
+  "iteration": 1,
+  "query": "Lioncast Kopfhörer",
+  "evaluation": {
+    "individual_results_evaluation": [],
+    "query_improvement_feedback": "No results found. Broaden query by removing 'Lioncast' or check spelling."
+  },
+  "match_percentage": 0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "median": 0,
+      "range": "N/A",
+      "valid_prices": []
+    }
+  }
+}

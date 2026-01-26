@@ -1,0 +1,93 @@
+{
+  "iteration": 2,
+  "query": "\"FRITZ!Box 7590\"",
+  "evaluation": {
+    "query_used": "FRITZ!Box 7590",
+    "individual_results_evaluation": [
+      {
+        "id": "2434",
+        "price": "80 €",
+        "is_match": false,
+        "reasoning": "Model 7590 matches but condition altered (repaired components), contradicting 'Good' condition in image analysis. Serienfehler modifications invalidate condition alignment."
+      },
+      {
+        "id": "4258",
+        "price": "110 € VB",
+        "is_match": false,
+        "reasoning": "Model mismatch: '7590 AX V2' is newer variant. Image analysis specifies base 7590 model without AX designation."
+      },
+      {
+        "id": "3059",
+        "price": "75 € VB",
+        "is_match": true,
+        "reasoning": "Exact model 7590, includes power cable (Netzteil), described as 'gutem Zustand' matching 'Good' condition. Brand implied by FRITZ!Box."
+      },
+      {
+        "id": "20340",
+        "price": "50 € VB",
+        "is_match": false,
+        "reasoning": "Condition mismatch: 'eventuell defekt' contradicts 'Good' condition requirement. Explicitly sold as potentially faulty."
+      },
+      {
+        "id": "305",
+        "price": "100 €",
+        "is_match": true,
+        "reasoning": "Exact AVM FRITZ!Box 7590 model, includes power cable, described as 'gutem Zustand'. Slight yellowing doesn't contradict white/red color scheme."
+      },
+      {
+        "id": "1009",
+        "price": "5 €",
+        "is_match": false,
+        "reasoning": "Wrong product type: Standfüße (stand feet) are accessories, not the router itself. Completely unrelated to target product."
+      },
+      {
+        "id": "2789",
+        "price": "75 € VB",
+        "is_match": true,
+        "reasoning": "Exact AVM FRITZ!Box 7590 model, includes power cable, reset to factory settings indicating functional 'Good' condition."
+      },
+      {
+        "id": "1408",
+        "price": "115 € VB",
+        "is_match": true,
+        "reasoning": "Model 7590 confirmed, 'sehr gut erhaltene' matches 'Good' condition, includes all cables and original packaging."
+      },
+      {
+        "id": "3746",
+        "price": "65 €",
+        "is_match": false,
+        "reasoning": "Wrong product type: Repair service listing, not a physical router. Contains 'Reparatur' keyword indicating service offering."
+      },
+      {
+        "id": "2046",
+        "price": "170 € VB",
+        "is_match": true,
+        "reasoning": "Exact model 7590, 'unbenutzt' exceeds 'Good' condition requirement, explicitly mentions white design with red accents matching image analysis."
+      }
+    ],
+    "query_improvement_feedback": "Add exclusion terms: -AX -V2 -Reparatur -Zubehör to filter variants/services and focus on pure 7590 models.",
+    "count_positive": 5,
+    "count_negative": 5,
+    "match_percentage": 50.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient"
+  },
+  "match_percentage": 50.0,
+  "price_statistics": {
+    "positive_match_count": 5,
+    "price_statistics": {
+      "count": 5,
+      "min": 75.0,
+      "max": 170.0,
+      "median": 100.0,
+      "mean": 107.0,
+      "valid_prices": [
+        75.0,
+        75.0,
+        100.0,
+        115.0,
+        170.0
+      ]
+    }
+  }
+}

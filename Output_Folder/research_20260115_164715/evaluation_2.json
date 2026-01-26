@@ -1,0 +1,74 @@
+{
+  "overall_sufficiency": "not sufficient",
+  "match_percentage": 30.0,
+  "count_positive": 3,
+  "count_negative": 7,
+  "query_improvement_feedback": "Specify exact model '7590' and add 'nicht AX' to exclude AX variants",
+  "individual_results_evaluation": [
+    {
+      "id": "6822",
+      "is_match": false,
+      "reasoning": "Model mismatch: Listing specifies '7590 AX' variant instead of target '7590' non-AX model"
+    },
+    {
+      "id": "16728",
+      "is_match": false,
+      "reasoning": "Model mismatch: Listing specifies '7590 AX' variant instead of target '7590' non-AX model"
+    },
+    {
+      "id": "3353",
+      "is_match": true,
+      "reasoning": "Exact model match (7590), brand AVM, condition 'very good', includes original packaging"
+    },
+    {
+      "id": "19654",
+      "is_match": false,
+      "reasoning": "Model mismatch: Listing specifies '7590 AX' variant instead of target '7590' non-AX model"
+    },
+    {
+      "id": "1003",
+      "is_match": false,
+      "reasoning": "Model mismatch: Listing specifies '7590 AX' variant instead of target '7590' non-AX model"
+    },
+    {
+      "id": "1022",
+      "is_match": false,
+      "reasoning": "Invalid listing type: This is a buyer search query ('Suche'), not a product listing for sale"
+    },
+    {
+      "id": "305",
+      "is_match": true,
+      "reasoning": "Exact model match (7590), brand AVM, condition 'good' despite minor yellowing, includes original packaging"
+    },
+    {
+      "id": "3352",
+      "is_match": true,
+      "reasoning": "Exact model match (7590), brand AVM, color 'white' matches primary color specification"
+    },
+    {
+      "id": "2457",
+      "is_match": false,
+      "reasoning": "Model mismatch: Listing specifies '7590ax' variant instead of target '7590' non-AX model"
+    },
+    {
+      "id": "1587",
+      "is_match": false,
+      "reasoning": "Color mismatch: Listing specifies black color variant instead of target 'white with red accents'"
+    }
+  ],
+  "total_listings": 10,
+  "price_statistics": {
+    "positive_match_count": 3,
+    "price_statistics": {
+      "count": 0,
+      "min": null,
+      "max": null,
+      "median": null,
+      "mean": null,
+      "range": null,
+      "valid_prices": [],
+      "error": "No valid prices found"
+    },
+    "items_with_valid_prices": 0
+  }
+}

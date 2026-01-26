@@ -1,0 +1,6 @@
+id,category,actual,predicted,error_pct,success
+6479,Foto,650.0,0.0,100.0,False
+4291,Audio & HiFi,420.0,0.0,100.0,False
+2024,Handy & Telefon,730.0,0.0,100.0,False
+7972,Konsolen,220.0,0.0,100.0,False
+4284,PC-Zubehör & Software,5.0,0.0,100.0,False

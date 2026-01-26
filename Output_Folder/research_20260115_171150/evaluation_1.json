@@ -1,0 +1,94 @@
+{
+  "iteration": 1,
+  "query": "Fritzbox 7590",
+  "evaluation": {
+    "query_used": "Fritzbox 7590",
+    "individual_results_evaluation": [
+      {
+        "id": "2434",
+        "price": "80 €",
+        "is_match": true,
+        "reasoning": "Brand (AVM implied), model 7590 match. Condition modified but functional with guarantee aligns with 'Good' condition. Key features consistent with standard 7590."
+      },
+      {
+        "id": "4258",
+        "price": "110 € VB",
+        "is_match": false,
+        "reasoning": "Model mismatch: '7590 AX V2' is newer variant not matching target 7590 model. Color/condition irrelevant due to model discrepancy."
+      },
+      {
+        "id": "3059",
+        "price": "75 € VB",
+        "is_match": true,
+        "reasoning": "Exact model 7590, AVM brand implied. Description confirms good condition and includes power cable matching key features."
+      },
+      {
+        "id": "20340",
+        "price": "50 € VB",
+        "is_match": false,
+        "reasoning": "Condition mismatch: 'eventuell defekt' contradicts 'Good' condition requirement despite correct model."
+      },
+      {
+        "id": "305",
+        "price": "100 €",
+        "is_match": true,
+        "reasoning": "Explicit AVM brand, model 7590, good condition, and included power cable align perfectly with image analysis."
+      },
+      {
+        "id": "1009",
+        "price": "5 €",
+        "is_match": false,
+        "reasoning": "Product type mismatch: Standfüße (accessory) not the router itself despite model reference."
+      },
+      {
+        "id": "2789",
+        "price": "75 € VB",
+        "is_match": true,
+        "reasoning": "AVM brand, model 7590, reset condition, and included power cable match all critical attributes."
+      },
+      {
+        "id": "1408",
+        "price": "115 € VB",
+        "is_match": true,
+        "reasoning": "Model 7590 confirmed (AK likely typo/variant), AVM brand, OVP with cables aligns with key features."
+      },
+      {
+        "id": "3746",
+        "price": "65 €",
+        "is_match": false,
+        "reasoning": "Service listing (reparatur) not a product sale despite model reference. Wrong product type."
+      },
+      {
+        "id": "2046",
+        "price": "170 € VB",
+        "is_match": true,
+        "reasoning": "Explicit 'white with red accents' color match, unused condition exceeds 'Good', includes power cable."
+      }
+    ],
+    "query_improvement_feedback": "Use exact phrase 'FRITZ!Box 7590' in quotes to exclude AX variants and non-product listings.",
+    "count_positive": 6,
+    "count_negative": 4,
+    "match_percentage": 60.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient"
+  },
+  "match_percentage": 60.0,
+  "price_statistics": {
+    "positive_match_count": 6,
+    "price_statistics": {
+      "count": 6,
+      "min": 75.0,
+      "max": 170.0,
+      "median": 90.0,
+      "mean": 102.5,
+      "valid_prices": [
+        75.0,
+        75.0,
+        80.0,
+        100.0,
+        115.0,
+        170.0
+      ]
+    }
+  }
+}

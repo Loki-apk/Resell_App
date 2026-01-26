@@ -1,0 +1,87 @@
+{
+  "iteration": 2,
+  "query": "FRITZ!Box 7590 -AX",
+  "evaluation": {
+    "query_used": "FRITZ!Box 7590 -AX",
+    "individual_results_evaluation": [
+      {
+        "id": "305",
+        "price": "100 €",
+        "is_match": false,
+        "reasoning": "Brand (AVM) and model (7590) match, but condition is used (yellowed front, 'gutes Zustand') vs target 'New in Box'. OVP mention contradicted by description."
+      },
+      {
+        "id": "4919",
+        "price": "75 € VB",
+        "is_match": false,
+        "reasoning": "Brand (AVM) and model (7590) match, but condition is used ('Verkaufe meine') vs target 'New in Box'. No new/OVP indication."
+      },
+      {
+        "id": "30159",
+        "price": "VB",
+        "is_match": false,
+        "reasoning": "Model (7590) matches but device is defective ('defekt', 'pfeift/fiept') vs target 'New in Box'. Wrong condition."
+      },
+      {
+        "id": "17016",
+        "price": "100 € VB",
+        "is_match": false,
+        "reasoning": "Model mismatch: '7590AX' vs target '7590'. AX variant excluded by query but still appeared."
+      },
+      {
+        "id": "4293",
+        "price": "170 €",
+        "is_match": false,
+        "reasoning": "Model mismatch: '7590 AX' vs target '7590'. AX variant excluded by query but still appeared."
+      },
+      {
+        "id": "3746",
+        "price": "65 €",
+        "is_match": false,
+        "reasoning": "Wrong product type: Repair service listing, not a physical router. Model mentioned but irrelevant to target product."
+      },
+      {
+        "id": "1003",
+        "price": "125 €",
+        "is_match": false,
+        "reasoning": "Model mismatch: '7590 AX' vs target '7590'. AX variant excluded by query but still appeared."
+      },
+      {
+        "id": "2789",
+        "price": "75 € VB",
+        "is_match": false,
+        "reasoning": "Brand (AVM) and model (7590) match, but condition is used ('gebrauchte') vs target 'New in Box'."
+      },
+      {
+        "id": "5982",
+        "price": "120 € VB",
+        "is_match": false,
+        "reasoning": "Brand and model match, but condition is used ('minimale Gebrauchsspuren') vs target 'New in Box'. OVP incomplete (missing power supply)."
+      },
+      {
+        "id": "16728",
+        "price": "110 € VB",
+        "is_match": false,
+        "reasoning": "Model mismatch: '7590 AX' vs target '7590'. AX variant excluded by query but still appeared despite 'NEU' condition."
+      }
+    ],
+    "query_improvement_feedback": "Add 'neu OVP' to target new listings; '-AX' ineffective as AX models still appear. Remove model exclusion and prioritize condition terms.",
+    "count_positive": 0,
+    "count_negative": 10,
+    "match_percentage": 0.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient"
+  },
+  "match_percentage": 0.0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "mean": 0,
+      "valid_prices": []
+    }
+  }
+}

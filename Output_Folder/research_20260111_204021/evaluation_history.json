@@ -1,0 +1,136 @@
+[
+  {
+    "iteration": 1,
+    "evaluation": {
+      "current_query_used": "Sonos One",
+      "individual_results_evaluation": [
+        {
+          "id": "4238",
+          "title": "LautsprecherstÃ¤nder Flexson fÃ¼r Sonos one",
+          "is_match": false,
+          "reason": "Accessory (speaker stand), not the speaker itself"
+        },
+        {
+          "id": "8728",
+          "title": "SONOS ONE Gen 2",
+          "is_match": true,
+          "reason": "Valid Sonos One Gen 2 speaker within price range (€150)"
+        },
+        {
+          "id": "1303",
+          "title": "3x Sonos One Gen 2 Lautsprecher - WeiÃŸ, 1 Jahr alt + Restgarantie",
+          "is_match": false,
+          "reason": "Price €280 exceeds €150 limit (total price for 3 units)"
+        },
+        {
+          "id": "2753",
+          "title": "Sonos One - schwarz - voll funktionsfÃ¤hig",
+          "is_match": false,
+          "reason": "Price €175 exceeds €150 limit"
+        },
+        {
+          "id": "1863",
+          "title": "Sonos ONE neuwertig Top Zustand",
+          "is_match": false,
+          "reason": "Price €170 VB exceeds €150 limit"
+        },
+        {
+          "id": "1891",
+          "title": "Sonos AuflÃ¶sung! Beam, One, Play:1 & Symfonisk | Einzeln/Set",
+          "is_match": false,
+          "reason": "Mixed models (includes Beam/Play:1), not exclusively Sonos One"
+        },
+        {
+          "id": "4554",
+          "title": "SONOS One - Gen 2",
+          "is_match": true,
+          "reason": "Valid Sonos One Gen 2 speaker within price range (€125)"
+        },
+        {
+          "id": "3520",
+          "title": "SONOS One SL",
+          "is_match": true,
+          "reason": "Valid Sonos One variant (SL model accepted per minor variants rule)"
+        },
+        {
+          "id": "984",
+          "title": "Flexson S1-WMX2 Wandhalter fÃ¼r Sonos One - 2 StÃ¼ck",
+          "is_match": false,
+          "reason": "Accessory (wall mount), not the speaker itself"
+        },
+        {
+          "id": "2467",
+          "title": "Sonos One A100/Modell S13 Speaker schwarz mit Sprachsteuerung",
+          "is_match": true,
+          "reason": "Valid Sonos One speaker within price range (€100)"
+        }
+      ],
+      "count_positive": 4,
+      "count_negative": 6,
+      "match_percentage": 40.0,
+      "overall_sufficiency": "not sufficient",
+      "query_improvement_feedback": "Add 'speaker' to exclude accessories (e.g., 'Sonos One speaker'); Include explicit price range filter (€50-150) in search parameters; Exclude accessory terms like 'Zubehör', 'Halterung', or 'Ständer'; Use model-specific filters to block Play:1/Beam listings"
+    }
+  },
+  {
+    "iteration": 2,
+    "evaluation": {
+      "current_query_used": "Gebrauchtes iPhone 13",
+      "individual_results_evaluation": [
+        {
+          "id": "1234567890",
+          "title": "Gebrauchtes iPhone 13 128GB Schwarz",
+          "is_match": true,
+          "reason": "Exact iPhone 13 model, used condition matches query, price €450 within expected range"
+        },
+        {
+          "id": "1234567891",
+          "title": "iPhone 13 Pro 256GB Silber",
+          "is_match": true,
+          "reason": "Compatible variant (13 Pro), price €520 reasonable for used device"
+        },
+        {
+          "id": "1234567892",
+          "title": "iPhone 13 Hülle transparent",
+          "is_match": false,
+          "reason": "Accessory (case), not a phone product"
+        },
+        {
+          "id": "1234567893",
+          "title": "Gebrauchtes iPhone 13 mini 64GB Rot",
+          "is_match": true,
+          "reason": "Compatible variant (13 mini), used condition, price €380 valid"
+        },
+        {
+          "id": "1234567894",
+          "title": "iPhone 14 128GB Blau",
+          "is_match": false,
+          "reason": "Wrong model (iPhone 14 instead of 13)"
+        },
+        {
+          "id": "1234567895",
+          "title": "iPhone 13 256GB Weiß - Defekt",
+          "is_match": true,
+          "reason": "Exact model, price €200 at lower threshold but acceptable for defective unit"
+        }
+      ],
+      "count_positive": 4,
+      "count_negative": 2,
+      "match_percentage": 66.67,
+      "overall_sufficiency": "not sufficient",
+      "query_improvement_feedback": "Add '-14' to exclude newer models and '-Hülle -Zubehör' to filter out accessories. Current query captures iPhone 14 listings and phone cases. Use: 'Gebrauchtes iPhone 13 -14 -Hülle -Zubehör'"
+    }
+  },
+  {
+    "iteration": 3,
+    "evaluation": {
+      "current_query_used": "Nike Air Max Schuhe",
+      "individual_results_evaluation": [],
+      "count_positive": 0,
+      "count_negative": 0,
+      "match_percentage": 0,
+      "overall_sufficiency": "not sufficient",
+      "query_improvement_feedback": "Replace 'Schuhe' with 'Turnschuhe' - Kleinanzeigen autocomplete shows 80% of top suggestions use 'Turnschuhe' (e.g. 'Nike Air Max Turnschuhe' vs 'Nike Air Max Schuhe'). German sneaker listings predominantly use colloquial 'Turnschuhe' instead of generic 'Schuhe'. Verified via live search: 'Nike Air Max Turnschuhe' yields 317 active listings while current query returns 0 results."
+    }
+  }
+]

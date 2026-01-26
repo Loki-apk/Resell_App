@@ -1,0 +1,18 @@
+{
+  "iteration": 3,
+  "query": "gebraucht",
+  "evaluation": {
+    "individual_results_evaluation": [],
+    "query_improvement_feedback": "Add specific product type to query (e.g., 'Stuhl') since 'gebraucht' alone yields irrelevant results"
+  },
+  "match_percentage": 0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "median": 0,
+      "range": "N/A",
+      "valid_prices": []
+    }
+  }
+}

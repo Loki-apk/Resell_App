@@ -1,0 +1,31 @@
+{
+  "iteration": 3,
+  "query": "Kenwood DP-1050 CD-Player",
+  "evaluation": {
+    "individual_results_evaluation": [
+      {
+        "id": "29817",
+        "price": "590 € VB",
+        "is_match": false,
+        "reasoning": "Wrong product category (Focal Radiance headphones), incorrect brand (Focal vs Kenwood), no DP-1050 model or CD player features mentioned"
+      },
+      {
+        "id": "6273",
+        "price": "650 €",
+        "is_match": false,
+        "reasoning": "Wrong product category (Focal Radiance headphones), incorrect brand/model, description references headphone-specific features like 'geschlossene Kopfhörer' with no CD player attributes"
+      }
+    ],
+    "query_improvement_feedback": "Replace 'CD-Player' with 'Compact Disc Player' to exclude headphone models; add 'Stereo' or 'Hi-Fi' to specify product category"
+  },
+  "match_percentage": 0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "median": 0,
+      "range": "N/A",
+      "valid_prices": []
+    }
+  }
+}

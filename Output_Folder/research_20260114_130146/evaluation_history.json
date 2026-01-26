@@ -1,0 +1,44 @@
+[
+  {
+    "iteration": 1,
+    "search_query": "FRITZ!Box 7590",
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 0.0,
+      "count_positive": 0,
+      "count_negative": 0,
+      "query_improvement_feedback": "Query too specific; remove model number to find similar routers",
+      "individual_results_evaluation": []
+    }
+  },
+  {
+    "iteration": 2,
+    "search_query": "FRITZ!Box DSL WLAN",
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 0.0,
+      "count_positive": 0,
+      "count_negative": 1,
+      "query_improvement_feedback": "Add exact model number '7590' to query to filter out other FRITZ!Box variants",
+      "individual_results_evaluation": [
+        {
+          "id": "16350",
+          "is_match": false,
+          "reasoning": "Model mismatch: Listing specifies FRITZ!Box 7530 AX (target is 7590). Includes 1&1 branding not present in image analysis. Key features like Wi-Fi 6 (AX) contradict target product's WLAN AC + N specification."
+        }
+      ]
+    }
+  },
+  {
+    "iteration": 3,
+    "search_query": "FRITZ!Box 7590",
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 0.0,
+      "count_positive": 0,
+      "count_negative": 0,
+      "query_improvement_feedback": "No results found. Query too specific - try broader terms like 'FRITZ!Box' without model number",
+      "individual_results_evaluation": []
+    }
+  }
+]

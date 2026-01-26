@@ -1,0 +1,49 @@
+{
+  "overall_sufficiency": "not sufficient",
+  "match_percentage": 40.0,
+  "count_positive": 2,
+  "count_negative": 3,
+  "query_improvement_feedback": "Specify exact model '7590' without 'AX' to exclude newer variants",
+  "individual_results_evaluation": [
+    {
+      "id": "17016",
+      "is_match": false,
+      "reasoning": "Model mismatch: '7590AX' differs from target '7590' model"
+    },
+    {
+      "id": "305",
+      "is_match": true,
+      "reasoning": "Exact brand (AVM), model (7590), and condition match; key features align with image analysis"
+    },
+    {
+      "id": "2046",
+      "is_match": true,
+      "reasoning": "Correct model (7590), color (white with red accents), and condition (unbenutzt/new) match target"
+    },
+    {
+      "id": "1003",
+      "is_match": false,
+      "reasoning": "Model mismatch: '7590 AX' variant differs from target '7590' model"
+    },
+    {
+      "id": "3746",
+      "is_match": false,
+      "reasoning": "Wrong product type: Repair service listing instead of physical product sale"
+    }
+  ],
+  "total_listings": 5,
+  "price_statistics": {
+    "positive_match_count": 2,
+    "price_statistics": {
+      "count": 0,
+      "min": null,
+      "max": null,
+      "median": null,
+      "mean": null,
+      "range": null,
+      "valid_prices": [],
+      "error": "No valid prices found"
+    },
+    "items_with_valid_prices": 0
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "iteration": 1,
+  "query": "FRITZ!Box 7590",
+  "evaluation": {
+    "individual_results_evaluation": [
+      {
+        "id": "3059",
+        "price": "75 € VB",
+        "is_match": false,
+        "reasoning": "Used condition ('zuverlässig ihren Dienst geleistet') contradicts 'New in Box' requirement; no color verification"
+      },
+      {
+        "id": "17392",
+        "price": "110 €",
+        "is_match": false,
+        "reasoning": "4-5 year old used item bundled with FritzFon C6; condition and completeness mismatch"
+      },
+      {
+        "id": "3353",
+        "price": "85 €",
+        "is_match": true,
+        "reasoning": "Explicit 'OVP mit Originalfolie' confirms new-in-box condition; AVM brand and 7590 model match; white/red color implied by standard model"
+      },
+      {
+        "id": "1580",
+        "price": "60 € VB",
+        "is_match": false,
+        "reasoning": "Defective unit (2.4GHz failure); condition and functionality mismatch"
+      },
+      {
+        "id": "940",
+        "price": "115 € VB",
+        "is_match": false,
+        "reasoning": "Used condition ('guten Zustand') contradicts new-in-box requirement despite red accent mention"
+      },
+      {
+        "id": "6204",
+        "price": "160 € VB",
+        "is_match": false,
+        "reasoning": "7590 AX V2 is newer Wi-Fi 6 model variant; model/type mismatch"
+      },
+      {
+        "id": "5696",
+        "price": "120 €",
+        "is_match": false,
+        "reasoning": "7590 AX model variant (Wi-Fi 6); model/type mismatch"
+      },
+      {
+        "id": "296",
+        "price": "165 € VB",
+        "is_match": false,
+        "reasoning": "7590 AX model variant; model/type mismatch"
+      },
+      {
+        "id": "6813",
+        "price": "120 € VB",
+        "is_match": false,
+        "reasoning": "Explicitly 'gebrauchter' (used) condition contradicts new-in-box requirement"
+      },
+      {
+        "id": "2434",
+        "price": "80 €",
+        "is_match": false,
+        "reasoning": "Repaired unit with replaced components ('Serienfehler beseitigt'); condition mismatch"
+      }
+    ],
+    "query_improvement_feedback": "Add 'neu OVP' to query to filter for new-in-box condition and exclude used/variant models",
+    "count_positive": 1,
+    "count_negative": 9,
+    "match_percentage": 10.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient"
+  },
+  "match_percentage": 10.0,
+  "price_statistics": {
+    "positive_match_count": 1,
+    "price_statistics": {
+      "count": 1,
+      "median": 85.0,
+      "range": "85-85",
+      "valid_prices": [
+        85.0
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "overall_sufficiency": "not sufficient",
+  "match_percentage": 0.0,
+  "count_positive": 0,
+  "count_negative": 0,
+  "query_improvement_feedback": "No valid listings retrieved. Check file encoding or broaden query beyond exact model number.",
+  "individual_results_evaluation": [],
+  "total_listings": 0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "min": null,
+      "max": null,
+      "median": null,
+      "mean": null,
+      "range": null,
+      "valid_prices": [],
+      "error": "No positive matches found"
+    }
+  }
+}

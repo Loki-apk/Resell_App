@@ -1,0 +1,82 @@
+{
+  "iteration": 1,
+  "query": "Fritz!Box 7590 AX v2",
+  "evaluation": {
+    "individual_results_evaluation": [
+      {
+        "id": "6204",
+        "price": "160 € VB",
+        "is_match": true,
+        "reasoning": "Exact model '7590 AX V2' confirmed, includes power adapter (Netzkabel) and Ethernet cable (LAN-Kabel), described as 'sehr gutem Zustand' matching 'Good' condition"
+      },
+      {
+        "id": "23742",
+        "price": "96 €",
+        "is_match": false,
+        "reasoning": "Correct model but missing accessory details; description only states 'Einwandfreier Funktion' without mentioning power adapter or Ethernet cable required by image analysis"
+      },
+      {
+        "id": "17008",
+        "price": "180 €",
+        "is_match": false,
+        "reasoning": "Correct model but description only specifies 'Netzteil' (power adapter), missing required Ethernet cable mention from image analysis"
+      },
+      {
+        "id": "16360",
+        "price": "160 € VB",
+        "is_match": false,
+        "reasoning": "Correct model but no accessory details; description focuses on compatibility without confirming power adapter or Ethernet cable inclusion"
+      },
+      {
+        "id": "1790",
+        "price": "200 € VB",
+        "is_match": false,
+        "reasoning": "Correct model but description lacks accessory specifications; only states functional condition without power adapter/Ethernet cable confirmation"
+      },
+      {
+        "id": "6822",
+        "price": "160 €",
+        "is_match": true,
+        "reasoning": "Exact model '7590 AX (v2)' confirmed, explicitly lists power adapter (Netzteil) and Ethernet cable (LAN-Kabel), described as 'hervorragendem Zustand' matching 'Good' condition"
+      },
+      {
+        "id": "1759",
+        "price": "140 € VB",
+        "is_match": false,
+        "reasoning": "Correct model but minimal description; no accessory details or condition verification beyond 'zurückgesetzt'"
+      },
+      {
+        "id": "1990",
+        "price": "150 € VB",
+        "is_match": false,
+        "reasoning": "Correct model but description focuses on technical specs without confirming required accessories (power adapter/Ethernet cable)"
+      },
+      {
+        "id": "4501",
+        "price": "175 € VB",
+        "is_match": false,
+        "reasoning": "Correct model but description only mentions 'mit OVP' (original packaging) without accessory or condition details"
+      },
+      {
+        "id": "3773",
+        "price": "155 €",
+        "is_match": false,
+        "reasoning": "Correct model via Art.-Nr 2000 2998 but description lacks accessory specifications; relies on photos without textual confirmation"
+      }
+    ],
+    "query_improvement_feedback": "Add 'mit Netzteil und LAN-Kabel' to query to enforce accessory inclusion matching image analysis requirements"
+  },
+  "match_percentage": 0,
+  "price_statistics": {
+    "positive_match_count": 2,
+    "price_statistics": {
+      "count": 2,
+      "median": 160.0,
+      "range": "160-160",
+      "valid_prices": [
+        160.0,
+        160.0
+      ]
+    }
+  }
+}

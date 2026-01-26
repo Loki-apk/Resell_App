@@ -1,0 +1,93 @@
+{
+  "iteration": 3,
+  "query": "FRITZ!Box 7590 -AX -V2 -Reparatur -Zubehör",
+  "evaluation": {
+    "query_used": "FRITZ!Box 7590 -AX -V2 -Reparatur -Zubehör",
+    "individual_results_evaluation": [
+      {
+        "id": "2434",
+        "price": "80 €",
+        "is_match": false,
+        "reasoning": "Modified unit with repaired components (Serienfehler beseitigt), condition not 'Good' as per target. Includes non-standard modifications to voltage converters and 2.4GHz chips."
+      },
+      {
+        "id": "4258",
+        "price": "110 € VB",
+        "is_match": false,
+        "reasoning": "Model mismatch: Lists '7590 AX V2' which violates excluded terms (-AX, -V2). Target is non-AX 7590 model."
+      },
+      {
+        "id": "3059",
+        "price": "75 € VB",
+        "is_match": true,
+        "reasoning": "Correct AVM FRITZ!Box 7590 model, good condition, includes power cable. 'Komplettes Zubehör' aligns with target's included accessories (power cable)."
+      },
+      {
+        "id": "20340",
+        "price": "50 € VB",
+        "is_match": false,
+        "reasoning": "Condition mismatch: Listed as 'eventuell defekt' with operational issues, contradicting target's 'Good' condition."
+      },
+      {
+        "id": "305",
+        "price": "100 €",
+        "is_match": true,
+        "reasoning": "Exact AVM FRITZ!Box 7590 match with Fon/WLAN/DSL features. Slight yellowing noted but condition aligns with 'Good'. Includes power cable."
+      },
+      {
+        "id": "1009",
+        "price": "5 €",
+        "is_match": false,
+        "reasoning": "Accessory only (Standfüße), not the router itself. Product type mismatch."
+      },
+      {
+        "id": "2789",
+        "price": "75 € VB",
+        "is_match": true,
+        "reasoning": "Correct AVM FRITZ!Box 7590 model, good condition, includes power cable and DSL cable as per target requirements."
+      },
+      {
+        "id": "1408",
+        "price": "115 € VB",
+        "is_match": true,
+        "reasoning": "AVM FRITZ!Box 7590 model confirmed, 'sehr gut erhalten' condition matches target. Includes all standard accessories (power cable)."
+      },
+      {
+        "id": "3746",
+        "price": "65 €",
+        "is_match": false,
+        "reasoning": "Repair service listing, not a product sale. Contains '/ 6890' model variant and 'Reparatur' keyword violating query exclusions."
+      },
+      {
+        "id": "2046",
+        "price": "170 € VB",
+        "is_match": true,
+        "reasoning": "Exact match: 'unbenutzt' (new) condition, white with red accents color specified, includes power cable. Model 7590 confirmed."
+      }
+    ],
+    "query_improvement_feedback": "Add 'Fon' to query to exclude AX models and target specific 7590 variant with DECT features shown in image analysis.",
+    "count_positive": 5,
+    "count_negative": 5,
+    "match_percentage": 50.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient"
+  },
+  "match_percentage": 50.0,
+  "price_statistics": {
+    "positive_match_count": 5,
+    "price_statistics": {
+      "count": 5,
+      "min": 75.0,
+      "max": 170.0,
+      "median": 100.0,
+      "mean": 107.0,
+      "valid_prices": [
+        75.0,
+        75.0,
+        100.0,
+        115.0,
+        170.0
+      ]
+    }
+  }
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "iteration": 1,
+    "search_query": "Sonos One",
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 0.0,
+      "count_positive": 0,
+      "count_negative": 10,
+      "query_improvement_feedback": "Add 'Gen 1' and 'new' to query, exclude 'SL' and accessory terms like 'Ständer'",
+      "individual_results_evaluation": [
+        {
+          "id": "2101",
+          "is_match": false,
+          "reasoning": "Model mismatch: Gen 2 (SL) has touch controls instead of physical buttons per image analysis. Condition stated as 'guter Zustand' not new."
+        },
+        {
+          "id": "30126",
+          "is_match": false,
+          "reasoning": "Wrong product type: Selling stands/accessories, not the speaker itself."
+        },
+        {
+          "id": "6434",
+          "is_match": false,
+          "reasoning": "Wrong product type: Selling stands, not the speaker."
+        },
+        {
+          "id": "18685",
+          "is_match": false,
+          "reasoning": "Model mismatch: SL (Gen 2) and color white instead of black."
+        },
+        {
+          "id": "2229",
+          "is_match": false,
+          "reasoning": "Model mismatch: SL (Gen 2) despite 'S22' designation."
+        },
+        {
+          "id": "8306",
+          "is_match": false,
+          "reasoning": "Condition mismatch: 'leichte Dellen' (dents) contradicts 'new' requirement. Correct model/color but failed condition check."
+        },
+        {
+          "id": "2932",
+          "is_match": false,
+          "reasoning": "Model mismatch: Includes Gen 2 and SL variants which lack physical control buttons."
+        },
+        {
+          "id": "6454",
+          "is_match": false,
+          "reasoning": "Model mismatch: SL variant despite correct color and 'new' condition."
+        },
+        {
+          "id": "8266",
+          "is_match": false,
+          "reasoning": "Wrong model: Play:1 is different product with different design/features than Sonos One."
+        },
+        {
+          "id": "19630",
+          "is_match": false,
+          "reasoning": "Wrong product type: Selling wall mounts, not speakers."
+        }
+      ]
+    }
+  },
+  {
+    "iteration": 2,
+    "search_query": "Sonos One Gen 1 neu Schwarz",
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 0.0,
+      "count_positive": 0,
+      "count_negative": 10,
+      "query_improvement_feedback": "Remove 'Gen 1' to include all Sonos One generations; replace 'neu' with 'unbenutzt/OVP' for condition matching",
+      "individual_results_evaluation": [
+        {
+          "id": "2101",
+          "is_match": false,
+          "reasoning": "Model is Sonos One Gen 2 (matches 'Sonos One' model line) and color black, but condition 'guter Zustand' (used) doesn't match 'New' requirement"
+        },
+        {
+          "id": "30126",
+          "is_match": false,
+          "reasoning": "Product type mismatch - listing is for Sonos One/SL stands (accessory), not the speaker itself"
+        },
+        {
+          "id": "6434",
+          "is_match": false,
+          "reasoning": "Product type mismatch - listing is for Flexson stands (accessory), not the speaker"
+        },
+        {
+          "id": "18685",
+          "is_match": false,
+          "reasoning": "Model mismatch (Sonos One SL instead of Sonos One) and color white instead of black"
+        },
+        {
+          "id": "2229",
+          "is_match": false,
+          "reasoning": "Model mismatch - listing is for Sonos One SL (lacks microphone array), not Sonos One"
+        },
+        {
+          "id": "8306",
+          "is_match": false,
+          "reasoning": "Model (Sonos One) and color (black) match, but condition 'leichte Dellen' (minor dents) doesn't satisfy 'New' requirement"
+        },
+        {
+          "id": "2932",
+          "is_match": false,
+          "reasoning": "Mixed models (Gen 2 + One SL), color unspecified, and condition 'neuwertig' (like new) not equivalent to 'New'"
+        },
+        {
+          "id": "6454",
+          "is_match": false,
+          "reasoning": "Model mismatch - listing is for Sonos One SL (no voice control), not Sonos One"
+        },
+        {
+          "id": "8266",
+          "is_match": false,
+          "reasoning": "Model mismatch (Sonos Play:1) and color white instead of black"
+        },
+        {
+          "id": "19630",
+          "is_match": false,
+          "reasoning": "Product type mismatch - listing is for wall mounts (accessory), not the speaker"
+        }
+      ]
+    }
+  },
+  {
+    "iteration": 3,
+    "search_query": "Sonos One schwarz unbenutzt",
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 0.0,
+      "count_positive": 0,
+      "count_negative": 10,
+      "query_improvement_feedback": "Remove 'unbenutzt' to capture listings using 'neuwertig' or 'OVP' for new condition",
+      "individual_results_evaluation": [
+        {
+          "id": "2101",
+          "is_match": false,
+          "reasoning": "Brand (Sonos) and model (Sonos One Gen 2) match, color (black) matches, but condition 'guter Zustand' indicates used vs target 'New'"
+        },
+        {
+          "id": "30126",
+          "is_match": false,
+          "reasoning": "Product type mismatch - selling Sonos One/SL stands instead of speaker"
+        },
+        {
+          "id": "6434",
+          "is_match": false,
+          "reasoning": "Product type mismatch - selling Flexson stands for Sonos speakers"
+        },
+        {
+          "id": "18685",
+          "is_match": false,
+          "reasoning": "Model mismatch (Sonos One SL instead of Sonos One) and color mismatch (white instead of black)"
+        },
+        {
+          "id": "2229",
+          "is_match": false,
+          "reasoning": "Model mismatch - selling Sonos One SL (no voice control) instead of Sonos One"
+        },
+        {
+          "id": "8306",
+          "is_match": false,
+          "reasoning": "Brand and model correct, color matches, but condition 'leichte Dellen' indicates used vs target 'New'"
+        },
+        {
+          "id": "2932",
+          "is_match": false,
+          "reasoning": "Includes Sonos One Gen 2 but color unspecified and condition 'neuwertigen Zustand' not equivalent to 'New'"
+        },
+        {
+          "id": "6454",
+          "is_match": false,
+          "reasoning": "Model mismatch - selling Sonos One SL instead of Sonos One despite correct color and new condition"
+        },
+        {
+          "id": "8266",
+          "is_match": false,
+          "reasoning": "Model mismatch (Sonos Play:1) and color mismatch (white) despite 'Sonos One' mention in title"
+        },
+        {
+          "id": "19630",
+          "is_match": false,
+          "reasoning": "Product type mismatch - selling wall mounts instead of speakers"
+        }
+      ]
+    }
+  }
+]

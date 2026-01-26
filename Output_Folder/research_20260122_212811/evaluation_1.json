@@ -1,0 +1,82 @@
+{
+  "iteration": 1,
+  "query": "FRITZ! Repeater 2400",
+  "evaluation": {
+    "individual_results_evaluation": [
+      {
+        "id": "8071",
+        "price": "150 € VB",
+        "is_match": false,
+        "reasoning": "Listing is for DUAL CS455-1 turntable with ORTOFON stylus, not AVM FRITZ! Repeater. Wrong brand (DUAL vs AVM), wrong product type (record player vs Wi-Fi repeater), no matching features."
+      },
+      {
+        "id": "7210",
+        "price": "VB",
+        "is_match": false,
+        "reasoning": "Dual CS 455-1 turntable listing. Incorrect brand (DUAL), product type mismatch (vinyl player vs network device), no AVM branding or Wi-Fi features mentioned."
+      },
+      {
+        "id": "3473",
+        "price": "99 €",
+        "is_match": false,
+        "reasoning": "Dual CS 455-1 turntable with belt drive. Completely different product category (audio equipment vs networking hardware), no AVM references or repeater functionality."
+      },
+      {
+        "id": "4896",
+        "price": "170 € VB",
+        "is_match": false,
+        "reasoning": "DUAL CS 455-1 turntable listing. Features 'BELT DRIVE' and vinyl playback specifications, zero alignment with AVM Wi-Fi repeater requirements or packaging description."
+      },
+      {
+        "id": "1353",
+        "price": "100 € VB",
+        "is_match": false,
+        "reasoning": "Minimal description but clearly identifies as Dual CS 455-1 turntable. No mention of AVM, Wi-Fi, or repeater functionality - fundamentally different product category."
+      },
+      {
+        "id": "4933",
+        "price": "55 €",
+        "is_match": false,
+        "reasoning": "Dual CS 455-1 record player requiring needle replacement. Product type mismatch (analog audio vs digital networking), wrong brand, no packaging or condition alignment."
+      },
+      {
+        "id": "24586",
+        "price": "120 € VB",
+        "is_match": false,
+        "reasoning": "Dual CS 455-1 turntable with 'automatischer Riemenantrieb'. Features describe vinyl playback mechanics, no correlation to Wi-Fi repeater specifications or AVM branding."
+      },
+      {
+        "id": "4217",
+        "price": "160 €",
+        "is_match": false,
+        "reasoning": "HI FI Schallplattenspieler Dual CS455-1 listing. German description confirms vinyl turntable, completely unrelated to network equipment requirements."
+      },
+      {
+        "id": "3501",
+        "price": "45 €",
+        "is_match": false,
+        "reasoning": "Dual CS 455-1 turntable with motor issues. Product category mismatch (audio hardware vs networking), no AVM references or Wi-Fi functionality mentioned."
+      }
+    ],
+    "count_positive": 0,
+    "count_negative": 9,
+    "match_percentage": 0.0,
+    "total_listings": 9,
+    "overall_sufficiency": "not sufficient",
+    "query_improvement_feedback": "Query targets wrong product category. Add 'AVM' brand specification and remove ambiguous terms. Current results show DUAL turntables instead of network devices."
+  },
+  "count_positive": 0,
+  "count_negative": 9,
+  "total_listings": 9,
+  "match_percentage": 0.0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "median": 0,
+      "average_price": 0,
+      "range": "N/A",
+      "valid_prices": []
+    }
+  }
+}

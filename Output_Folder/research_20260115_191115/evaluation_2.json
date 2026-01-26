@@ -1,0 +1,87 @@
+{
+  "iteration": 2,
+  "query": "FRITZ!Box 7590 neu OVP",
+  "evaluation": {
+    "query_used": "FRITZ!Box 7590 neu OVP",
+    "individual_results_evaluation": [
+      {
+        "id": "3746",
+        "price": "65 €",
+        "is_match": false,
+        "reasoning": "Repair service listing, not a product sale. Model includes 6890 variant which doesn't match target 7590."
+      },
+      {
+        "id": "2003",
+        "price": "79 €",
+        "is_match": false,
+        "reasoning": "Used condition ('sehr guter Zustand') contradicts 'New in Box' requirement despite OVP mention."
+      },
+      {
+        "id": "3059",
+        "price": "75 € VB",
+        "is_match": false,
+        "reasoning": "Used condition with no 'new' indication. Missing OVP confirmation and color specification."
+      },
+      {
+        "id": "6204",
+        "price": "160 € VB",
+        "is_match": false,
+        "reasoning": "Model mismatch: '7590 AX V2' is newer variant, not target 7590. Explicitly states no original packaging."
+      },
+      {
+        "id": "2046",
+        "price": "170 € VB",
+        "is_match": true,
+        "reasoning": "Matches all criteria: 'unbenutzt' (new), 'weißes Design mit rotem Akzent' (color), correct 7590 model, AVM implied."
+      },
+      {
+        "id": "17016",
+        "price": "100 € VB",
+        "is_match": false,
+        "reasoning": "Model mismatch: '7590AX' is different variant. No condition or color specification."
+      },
+      {
+        "id": "2791",
+        "price": "50 € VB",
+        "is_match": false,
+        "reasoning": "Used condition (6 years old) with functional issues. Contradicts 'New in Box' requirement."
+      },
+      {
+        "id": "940",
+        "price": "115 € VB",
+        "is_match": false,
+        "reasoning": "Used condition ('guten Zustand') with no OVP mention. Missing new condition verification."
+      },
+      {
+        "id": "2789",
+        "price": "75 € VB",
+        "is_match": false,
+        "reasoning": "Explicitly 'gebrauchte' (used) condition. Correct model but fails new-in-box requirement."
+      },
+      {
+        "id": "296",
+        "price": "165 € VB",
+        "is_match": false,
+        "reasoning": "Model mismatch: '7590 AX' is newer variant. No condition or color details provided."
+      }
+    ],
+    "query_improvement_feedback": "Add '-AX' to exclude newer variants and require 'unbenutzt' instead of 'neu' for stricter new-condition filtering.",
+    "count_positive": 1,
+    "count_negative": 9,
+    "match_percentage": 10.0,
+    "total_listings": 10,
+    "overall_sufficiency": "not sufficient"
+  },
+  "match_percentage": 10.0,
+  "price_statistics": {
+    "positive_match_count": 1,
+    "price_statistics": {
+      "count": 1,
+      "median": 170.0,
+      "range": "170-170",
+      "valid_prices": [
+        170.0
+      ]
+    }
+  }
+}

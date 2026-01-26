@@ -1,0 +1,41 @@
+[
+  {
+    "iteration": 1,
+    "search_query": "FRITZ!Box 7590",
+    "evaluation": {
+      "query_improvement_feedback": "JSON parsing error in evaluation",
+      "individual_results_evaluation": [],
+      "count_positive": 0,
+      "count_negative": 0,
+      "match_percentage": 0.0,
+      "total_listings": 0,
+      "overall_sufficiency": "not sufficient"
+    }
+  },
+  {
+    "iteration": 2,
+    "search_query": "AVM FRITZ!Box 7590",
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 0.0,
+      "count_positive": 0,
+      "count_negative": 0,
+      "query_improvement_feedback": "Remove model number '7590' to broaden search.",
+      "individual_results_evaluation": [],
+      "total_listings": 0
+    }
+  },
+  {
+    "iteration": 3,
+    "search_query": "FRITZ!Box",
+    "evaluation": {
+      "overall_sufficiency": "not sufficient",
+      "match_percentage": 0.0,
+      "count_positive": 0,
+      "count_negative": 0,
+      "query_improvement_feedback": "Remove exclamation: search 'Fritzbox'",
+      "individual_results_evaluation": [],
+      "total_listings": 0
+    }
+  }
+]

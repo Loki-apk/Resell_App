@@ -1,0 +1,82 @@
+{
+  "iteration": 3,
+  "query": "ATX Gehäuse",
+  "evaluation": {
+    "individual_results_evaluation": [
+      {
+        "id": "8071",
+        "price": "150 € VB",
+        "is_match": false,
+        "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+      },
+      {
+        "id": "7210",
+        "price": "VB",
+        "is_match": false,
+        "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+      },
+      {
+        "id": "3473",
+        "price": "99 €",
+        "is_match": false,
+        "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+      },
+      {
+        "id": "4896",
+        "price": "170 € VB",
+        "is_match": false,
+        "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+      },
+      {
+        "id": "1353",
+        "price": "100 € VB",
+        "is_match": false,
+        "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+      },
+      {
+        "id": "4933",
+        "price": "55 €",
+        "is_match": false,
+        "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+      },
+      {
+        "id": "24586",
+        "price": "120 € VB",
+        "is_match": false,
+        "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+      },
+      {
+        "id": "4217",
+        "price": "160 €",
+        "is_match": false,
+        "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+      },
+      {
+        "id": "3501",
+        "price": "45 €",
+        "is_match": false,
+        "reasoning": "Wrong product category: listing is for turntable (Dual CS 455-1), not ATX computer case"
+      }
+    ],
+    "count_positive": 0,
+    "count_negative": 9,
+    "match_percentage": 0.0,
+    "total_listings": 9,
+    "overall_sufficiency": "not sufficient",
+    "query_improvement_feedback": "Query targets wrong category. Replace 'ATX Gehäuse' with specific computer case model from image analysis."
+  },
+  "count_positive": 0,
+  "count_negative": 9,
+  "total_listings": 9,
+  "match_percentage": 0.0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "median": 0,
+      "average_price": 0,
+      "range": "N/A",
+      "valid_prices": []
+    }
+  }
+}

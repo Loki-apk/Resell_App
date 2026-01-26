@@ -1,0 +1,59 @@
+{
+  "timestamp": "20260122_181113",
+  "benchmark_run": "20260122_181113",
+  "items_processed": [
+    {
+      "id": "7700",
+      "category": "Audio & HiFi",
+      "title": "Lautsprecher Logitech",
+      "input_data": {
+        "images": [
+          "Kleinanzeigen_Input\\images\\7700_0.jpg"
+        ],
+        "image_count": 1
+      },
+      "actual_price": 40.0,
+      "workflow_output": {
+        "best_iteration": 0,
+        "iterations_ran": 3,
+        "match_count": 0,
+        "valid_prices_found": []
+      },
+      "prediction_metrics": {
+        "predicted_price": 0.0,
+        "difference_eur": -40.0,
+        "error_percentage": 100.0,
+        "success": false,
+        "threshold_used": 15.0
+      }
+    },
+    {
+      "id": "155",
+      "category": "Audio & HiFi",
+      "title": "Logitech Squeezebox Duet – Netzwerk-Musikplayer in",
+      "input_data": {
+        "images": [
+          "Kleinanzeigen_Input\\images\\155_0.jpg",
+          "Kleinanzeigen_Input\\images\\155_1.jpg",
+          "Kleinanzeigen_Input\\images\\155_2.jpg"
+        ],
+        "image_count": 3
+      },
+      "actual_price": 170.0,
+      "workflow_output": {
+        "best_iteration": 0,
+        "iterations_ran": 2,
+        "match_count": 0,
+        "valid_prices_found": []
+      },
+      "prediction_metrics": {
+        "predicted_price": 0.0,
+        "difference_eur": -170.0,
+        "error_percentage": 100.0,
+        "success": false,
+        "threshold_used": 15.0
+      }
+    }
+  ],
+  "summary": {}
+}

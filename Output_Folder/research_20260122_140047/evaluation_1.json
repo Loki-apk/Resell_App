@@ -1,0 +1,79 @@
+{
+  "iteration": 1,
+  "query": "keine zugänglichen Bilder gefunden",
+  "evaluation": {
+    "individual_results_evaluation": [
+      {
+        "id": "2118",
+        "price": "37 € VB",
+        "is_match": false,
+        "reasoning": "Target product details unavailable due to image analysis error ('No accessible images found'). Listing is for an Eisenacher car emblem, unrelated to missing target."
+      },
+      {
+        "id": "3111",
+        "price": "28 €",
+        "is_match": false,
+        "reasoning": "Target product details unavailable due to image analysis error. Listing is for a Coca-Cola advertising board, unrelated to missing target."
+      },
+      {
+        "id": "16514",
+        "price": "N/A",
+        "is_match": false,
+        "reasoning": "Target product details unavailable due to image analysis error. Listing offers multiple unrelated items (bike, washing machine), no target reference."
+      },
+      {
+        "id": "14101",
+        "price": "VB",
+        "is_match": false,
+        "reasoning": "Target product details unavailable due to image analysis error. Listing is for Siemens dental equipment parts, unrelated to missing target."
+      },
+      {
+        "id": "1799",
+        "price": "3 €",
+        "is_match": false,
+        "reasoning": "Target product details unavailable due to image analysis error. Listing is for unused LACURA beauty product, unrelated to missing target."
+      },
+      {
+        "id": "1998",
+        "price": "189 € VB",
+        "is_match": false,
+        "reasoning": "Target product details unavailable due to image analysis error. Listing is for Jägermeister slot machine, unrelated to missing target."
+      },
+      {
+        "id": "4981",
+        "price": "5 €",
+        "is_match": false,
+        "reasoning": "Target product details unavailable due to image analysis error. Listing is for Coca-Cola toy trucks, unrelated to missing target."
+      },
+      {
+        "id": "6304",
+        "price": "15 €",
+        "is_match": false,
+        "reasoning": "Target product details unavailable due to image analysis error. Listing is for Marlboro ashtrays, unrelated to missing target."
+      },
+      {
+        "id": "13379",
+        "price": "45 € VB",
+        "is_match": false,
+        "reasoning": "Target product details unavailable due to image analysis error. Listing is for Tupperware containers, unrelated to missing target."
+      },
+      {
+        "id": "7113",
+        "price": "8 € VB",
+        "is_match": false,
+        "reasoning": "Target product details unavailable due to image analysis error. Listing is for used Tupperware items, unrelated to missing target."
+      }
+    ],
+    "query_improvement_feedback": "Query used error message 'keine zugänglichen Bilder gefunden'. Use actual product attributes from successful image analysis."
+  },
+  "match_percentage": 0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "median": 0,
+      "range": "N/A",
+      "valid_prices": []
+    }
+  }
+}

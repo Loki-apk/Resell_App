@@ -1,0 +1,18 @@
+{
+  "iteration": 2,
+  "query": "Sonos Play 3",
+  "evaluation": {
+    "individual_results_evaluation": [],
+    "query_improvement_feedback": "No results found. Query too specific; try 'Sonos Play3' without space/colon to match common listings"
+  },
+  "match_percentage": 0,
+  "price_statistics": {
+    "positive_match_count": 0,
+    "price_statistics": {
+      "count": 0,
+      "median": 0,
+      "range": "N/A",
+      "valid_prices": []
+    }
+  }
+}
